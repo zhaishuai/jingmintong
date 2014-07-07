@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Untitled Document</title>
+		<metaname="viewport" content="width=device-width,user-scalable=no"/> 
+		<link rel="stylesheet" href="cssreset.css"/>
+		<style type="text/css">
+			#content {
+				width: 90%;
+				margin: 10px auto;
+				height: auto;
+			}
+		</style>
+		<script src="jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+			    $(".head_img").width($(window).width());
+			    $(".tail_img").width($(window).width());
+			});
+            function load(){
+                var content_img_width = document.getElementById("content_img").width;
+                var content_img_height = document.getElementById("content_img").height;
+                var window_width = $(window).width();
+                var scale = ($(window).width() - content_img_width);
+                scale = scale/content_img_width
+                $("#content_img").width($(window).width()*0.9);
+                
+            }
+		</script>
+	</head>
+
+	<body>
+		<div id="head">
+			<img class="head_img" src="head.png"/>
+		</div>
+		<div id="content" align="justify">
+            <img src="莱山派出所至莱山分局地图.png" id="content_img" align="center;" onload="load()" />
+		</div>
+		<div id="tail">
+			<img class="tail_img" src="tail.png">
+                
+		</div>
+	</body>
+</html>

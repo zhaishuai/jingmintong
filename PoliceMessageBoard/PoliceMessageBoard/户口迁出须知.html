@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Untitled Document</title>
+		<metaname="viewport" content="width=device-width,user-scalable=no"/> 
+		<link rel="stylesheet" href="cssreset.css"/>
+		<style type="text/css">
+			#content {
+				width: 90%;
+				margin: 10px auto;
+				height: auto;
+			}
+		</style>
+		<script src="jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+			    $(".head_img").width($(window).width());
+			    $(".tail_img").width($(window).width());
+			});
+		</script>
+	</head>
+
+	<body>
+		<div id="head">
+			<img class="head_img" src="head.png"/>
+		</div>
+		<div id="content" align="justify">
+            <h3 style="text-align: center;">户口迁出须知</h3>
+            <p>居民户口在我辖区要迁出人员办理以下手续：</p>
+            <p><strong>迁往市外</strong></p>
+            <p>对方公安局出具的准予迁入证明（准迁证），本人户口本、身份证，村（居）委会同意迁出证明；</p>
+            <p><strong>入学迁出</strong></p>
+            <p>学校入学通知书原件、复印件，本人户口本、身份证，村（居）委会同意迁出证明；</p>
+            <p><strong>入伍迁出</strong></p>
+            <p>入伍通知书原件、复印件，本人户口本、身份证，村（居）委会同意迁出证明；</p>
+            <p><strong>定居台湾、香港、奥门、国外注销户口</strong></p>
+            <p>出境、国定居注销户口。公民取得出境、出国定居证明后，应在出境、出国前持本人户口簿、身份证、村（居）注销户口证明以及能够证明取得定居资格的有效证明（定居台湾的，凭出入境管理部门签发的《大陆居民往来台湾通行证》和定居签注或户口注销通知书；定居港、澳的，凭前往港澳通行证、公安机关注销户口通知；定居国外的，凭省公安厅签发的出国定居证、护照等）到户口所在地派出所办理户口迁出注销手续，缴销身份证。</p>
+		</div>
+		<div id="tail">
+			<img class="tail_img" src="tail.png">
+		</div>
+	</body>
+</html>

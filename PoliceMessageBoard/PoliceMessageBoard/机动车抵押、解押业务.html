@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Untitled Document</title>
+		<metaname="viewport" content="width=device-width,user-scalable=no"/> 
+		<link rel="stylesheet" href="cssreset.css"/>
+		<style type="text/css">
+			#content {
+				width: 90%;
+				margin: 10px auto;
+				height: auto;
+			}
+        p   {   text-indent:2em   }
+		</style>
+		<script src="jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+			    $(".head_img").width($(window).width());
+			    $(".tail_img").width($(window).width());
+			});
+		</script>
+	</head>
+
+	<body>
+		<div id="head">
+			<img class="head_img" src="head.png"/>
+		</div>
+		<div id="content" align="justify">
+            <h3 style="text-align: center;">机动车抵押、解押业务流程</h3>
+            <p><strong>一、抵押业务流程</strong></p>
+            <p><strong>(一)、需要准备的资料：</strong></p>
+            <p>1、需要自带车主身份证原件和复印件、自带抵押权人的身份证原件和复印件；</p>
+            <p>2、有效的抵押合同；</p>
+            <p>3、要办抵押业务的机动车的登记证书；</p>
+            <p><strong>(二)、办理流程</strong></p>
+            <p>1、车管所业务大厅领取排队号等候业务受理；2、受理后收费窗口交费；</p>
+            <p>3、制证窗口领取签注抵押信息的登记证书；</p>
+            <p>4、业务办结</p>
+            <p><strong>二、解押业务流程</strong></p>
+            <p><strong>(一)、需要准备的资料：</strong></p>
+            <p>1、需要自带车主身份证原件和复印件、自带抵押权人的身份证原件和复印件；</p>
+            <p>2、要办理解押业务的机动车的登记证书；</p>
+            <p><strong>(二)、办理流程</strong></p>
+            <p>1、车管所业务大厅领取排队号等候业务受理；</p>
+            <p>2、制证窗口领取签注解抵押信息的登记证书；</p>
+            <p>3、业务办结</p>
+            <p><strong>备注：</strong></p>
+            <p>1、抵押业务必须要带车主身份证原件，若车主不能到场可代理，代理人需要带自己的身份证原件和复印件和车主的身份证原件。</p>
+            <p>2、抵押权人不能到也需要代理。</p>
+		</div>
+		<div id="tail">
+			<img class="tail_img" src="tail.png">
+		</div>
+	</body>
+</html>

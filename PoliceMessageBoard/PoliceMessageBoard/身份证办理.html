@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Untitled Document</title>
+		<metaname="viewport" content="width=device-width,user-scalable=no"/> 
+		<link rel="stylesheet" href="cssreset.css"/>
+		<style type="text/css">
+			#content {
+				width: 90%;
+				margin: 10px auto;
+				height: auto;
+			}
+		</style>
+		<script src="jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+			    $(".head_img").width($(window).width());
+			    $(".tail_img").width($(window).width());
+			});
+		</script>
+	</head>
+
+	<body>
+		<div id="head">
+			<img class="head_img" src="head.png"/>
+		</div>
+		<div id="content" align="justify">
+            <h3 style="text-align: center;">身份证办理</h3>
+            <p><strong>一、初次申领居民身份证</strong></p>
+            <p>应当自年满十六周岁之日起三个月内，向户口所在地派出所申请领取居民身份证。需携带户口簿、工本费20元，第一次申请您要亲自去，因为要照相，符合条件的快去办理吧，拥有您的第一个身份证，它也证明了您已经长大成人了。（有效期为10年）未满十六周岁的青少年或儿童，也可由监护人代为申请领取居民身份证。办理时需携带户口簿、工本费20元，本人同去照相。（有效期5年）</p>
+            <p><strong>二、身份证补领手续</strong></p>
+            <p>为避免不法分子利用您的身份从事违法犯罪行为，当您的身份证不慎丢失时，请尽快由本人到户口所在地派出所补领居民身份证。我们会在系统内给您做挂失处理。前去时本人需携带户口簿、工本费40元。</p>
+            <p><strong>三、临时身份证申办手续</strong></p>
+            <p>当您在申请领取、换领、补领居民身份证期间，急需使用居民身份证的，可以同时申请临时居民身份证。在向户口所在地的派出所申请办理&ldquo;二代证&rdquo;手续后，可以凭&ldquo;二代证领取凭证&rdquo;及户口簿、工本费十元到分局人口管理科申请办理临时居民身份证，临时居民身份证在两个工作日内可领取。</p>
+		</div>
+		<div id="tail">
+			<img class="tail_img" src="tail.png">
+		</div>
+	</body>
+</html>

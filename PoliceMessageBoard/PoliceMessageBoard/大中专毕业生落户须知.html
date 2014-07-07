@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Untitled Document</title>
+		<metaname="viewport" content="width=device-width,user-scalable=no"/> 
+		<link rel="stylesheet" href="cssreset.css"/>
+		<style type="text/css">
+			#content {
+				width: 90%;
+				margin: 10px auto;
+				height: auto;
+			}
+		</style>
+		<script src="jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+			    $(".head_img").width($(window).width());
+			    $(".tail_img").width($(window).width());
+			});
+		</script>
+	</head>
+
+	<body>
+		<div id="head">
+			<img class="head_img" src="head.png"/>
+		</div>
+		<div id="content">
+            <h3 style="text-align: center;">大中专毕业生落户须知</h3>
+            <p><strong>所需手续材料：</strong></p>
+            <p>1、《户口迁移证》；</p>
+            <p>2、毕业生就业报到证或派遣证、推荐书复印件；</p>
+            <p>3、家庭或单位集体户口簿、本人身份证；</p>
+            <p>4、村委会同意落户证明，（解甲庄街道办事处政法委调解室盖章）</p>
+            <p>5、如果当年未落户，要重新到区人才交流中心、区劳动局、区公安局盖章。</p>
+            <p>6、退学的学校退学证明。</p>
+            <p>手续齐全当场落户，无须审批。</p>
+            <p>(以上材料根据情况取舍)</p>
+            <p>派出所联系电话：6891866-4082 0535-6752009</p>		</div>
+		<div id="tail">
+			<img class="tail_img" src="tail.png">
+		</div>
+	</body>
+</html>

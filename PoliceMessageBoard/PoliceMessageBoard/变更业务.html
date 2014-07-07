@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Untitled Document</title>
+		<metaname="viewport" content="width=device-width,user-scalable=no"/> 
+		<link rel="stylesheet" href="cssreset.css"/>
+		<style type="text/css">
+			#content {
+				width: 90%;
+				margin: 10px auto;
+				height: auto;
+			}
+        p   {   text-indent:2em   }
+		</style>
+		<script src="jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+			    $(".head_img").width($(window).width());
+			    $(".tail_img").width($(window).width());
+			});
+		</script>
+	</head>
+
+	<body>
+		<div id="head">
+			<img class="head_img" src="head.png"/>
+		</div>
+		<div id="content" align="justify">
+            <h3 style="text-align: center;">变更业务流程</h3>
+            <p><strong>一.要准备的材料</strong></p>
+            <p>1、需要自带车主身份证原件和复印件；</p>
+            <p>2、车辆行驶证；</p>
+            <p>3、车辆登记证书；</p>
+            <p><strong>二.办理流程</strong></p>
+            <p>1、带着准备好的资料，到车管所业务大厅领取排队号等候业务受理</p>
+            <p>2、受理后收费窗口交费；</p>
+            <p>3、制证窗口领取变更后的证件；</p>
+            <p>4、业务办结</p>
+            <p><strong>备注：</strong>变更业务可代理，但必须出示车主身份证原件和代理人的身份证原件和复印件。</p>
+		</div>
+		<div id="tail">
+			<img class="tail_img" src="tail.png">
+		</div>
+	</body>
+</html>

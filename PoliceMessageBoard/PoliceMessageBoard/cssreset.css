@@ -1,0 +1,28 @@
+﻿/* CSS Document */
+
+/*---------全局定义-------------*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0;} 
+body{ background:#F4F4F4; font-size:56px; color:#333; font-family: "Heiti SC Light",Arail,verdana; line-height:75px;}
+p{align="justify";}
+
+font{font-family:"黑体",Arail,verdana;margin:0;padding:0;font-size:56px;}
+input,textarea,select,button,table,td,th{font-size:56px;}
+div,form,img,ul,ol,li,dl,dt,dd{margin:0;padding:0;border:0}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0; font-family: "Songti SC Black"}
+table,td,tr,th{font-family:"黑体",Arail,verdana;margin:0;padding:0;color:#333; font-size:56px}
+ul,dl,ol,form{margin:0;border:0px; padding:0}
+ul li,ol li{list-style-type:none}
+dl dt,dl dd{margin:0;padding:0}
+table{text-align:left;border-collapse:collapse; border-spacing:0px;} 
+p{text-indent:2em;}
+img{ border:0;vertical-align:middle; }
+
+/*
+img { display:block; vertical-align:middle; border-top-style:none; border-left-style:none; border-right-style:none; border-bottom-style:none;}
+*/
+input {vertical-align:middle;}
+select { vertical-align:middle;}
+
+button { cursor: pointer;}
+
+h2{ font-size:56px;}

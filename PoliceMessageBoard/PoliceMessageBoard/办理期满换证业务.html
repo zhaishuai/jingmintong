@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Untitled Document</title>
+		<metaname="viewport" content="width=device-width,user-scalable=no"/>
+		<link rel="stylesheet" href="cssreset.css"/>
+		<style type="text/css">
+			#content {
+				width: 90%;
+				margin: 10px auto;
+				height: auto;
+			}
+        p   {   text-indent:2em   }
+            </style>
+		<script src="jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+                              $(".head_img").width($(window).width());
+                              $(".tail_img").width($(window).width());
+                              });
+            </script>
+	</head>
+    
+	<body>
+		<div id="head">
+			<img class="head_img" src="head.png"/>
+		</div>
+		<div id="content" align="justify">
+            <h3 style="text-align: center;">办理期满换证业务流程</h3>
+            <p><strong>受理范围：</strong>持有烟台市莱山区、高新区身份证，且准驾车型为C1、C2、C3、C4、D、E、F的机动车驾驶证。</p>
+            <p><strong>（一）需要提交的资料</strong></p>
+            <p>1、居民身份证原件及复印件；（复印件需要签名）</p>
+            <p>2、一寸免冠白底彩色照片3张；</p>
+            <p>3、机动车驾驶人身体条件证明；</p>
+            <p>持有外地居民身份证的，还需要提交公安机关核发的居住证明原件及复印件；</p>
+            <p><strong>（二）业务流程</strong></p>
+            <p>1、在一楼大厅体检窗口领取《机动车驾驶人身体条件证明》，填写个人信息，进行体检；</p>
+            <p>2、持（一）中资料到驾驶证业务窗口领取《机动车驾驶证申请表》，填写个人信息并受理；</p>
+            <p>3、持受理凭证到收费窗口缴费；</p>
+            <p>4、驾驶证业务窗口领取驾驶证。</p>
+		</div>
+		<div id="tail">
+			<img class="tail_img" src="tail.png">
+                </div>
+	</body>
+</html>

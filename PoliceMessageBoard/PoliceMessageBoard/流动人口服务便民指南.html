@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Untitled Document</title>
+		<metaname="viewport" content="width=device-width,user-scalable=no"/> 
+		<link rel="stylesheet" href="cssreset.css"/>
+		<style type="text/css">
+			#content {
+				width: 90%;
+				margin: 10px auto;
+				height: auto;
+			}
+		</style>
+		<script src="jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+			    $(".head_img").width($(window).width());
+			    $(".tail_img").width($(window).width());
+			});
+		</script>
+	</head>
+
+	<body>
+		<div id="head">
+			<img class="head_img" src="head.png"/>
+		</div>
+		<div id="content" align="justify">
+            <h3 style="text-align: center;">流动人口服务便民指南</h3>
+            <p>热忱的欢迎您来到烟台市莱山区解甲庄派出所辖区经商务工，我们衷心祝愿您工作顺利，万事顺心。初来乍到，人地生疏，我们希望提供的相关信息能方便您的工作和生活：</p>
+            <p>特别提示：在入住后三日内务请您携带身份证原件及复印件到派出所办理暂住登记。如逾期不办理登记，将有可能给您日后的生活工作带来不便，派出所也将依据《山东省流动人口服务管理办法》进行查处。希望您遵守法规，避免不愉快的事情发生。</p>
+            <p>登记时，需提供本人身份证原件及复印件。其中租房居住的，需和房主一起带房产证原件及复印件、有单位的单位出具职业证明，个体经商的带工商营业执照的原件及复印件前去派出所办理，若是女士还需要查验过的《流动人口婚育证明》原件及复印件。住在单位集体宿舍的，需要单位出具证明，证明写清其在单位上班并在单位宿舍居住及入厂时间。女士还需要查验过的《流动人口婚育证明》原件及复印件。对于工地及单位等流动人口较多的地方，可与我们的社区民警联系，由社区民警上门统一登记办证。</p>		</div>
+		<div id="tail">
+			<img class="tail_img" src="tail.png">
+		</div>
+	</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Untitled Document</title>
+		<metaname="viewport" content="width=device-width,user-scalable=no"/> 
+		<link rel="stylesheet" href="cssreset.css"/>
+		<style type="text/css">
+			#content {
+				width: 90%;
+				margin: 10px auto;
+				height: auto;
+			}
+		</style>
+		<script src="jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+			    $(".head_img").width($(window).width());
+			    $(".tail_img").width($(window).width());
+			});
+		</script>
+	</head>
+
+	<body>
+		<div id="head">
+			<img class="head_img" src="head.png"/>
+		</div>
+		<div id="content">
+            <h3 style="text-align: center;">分户须知</h3>
+            <p>在同一村（居）委会内的住户，由一户分为数户，派出所可以根据分户人申请经调查核实后予以办理分户，所需手续：</p>
+            <p>一、分户需提供居民户口簿、原房屋产权证和分出的房屋产权证原件、复印件，村（居）委会证明写清楚分出人员姓名、门牌号等手续材料。</p>
+            <p>二、因离婚分户，其中一方无合法固定住所又无其他迁出条件的，村（居）分到空挂户上所需手续：</p>
+            <p>居民户口簿、离婚证（离婚协议书）、离婚判决书、原件复印件，村（居）委会证明。</p>		</div>
+		<div id="tail">
+			<img class="tail_img" src="tail.png">
+		</div>
+	</body>
+</html>

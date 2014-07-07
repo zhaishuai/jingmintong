@@ -1,0 +1,1366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C60436A91941B4E1007AC6AD /* 办理新车注册业务.html in Resources */ = {isa = PBXBuildFile; fileRef = C60436A41941B4E1007AC6AD /* 办理新车注册业务.html */; };
+		C60436AA1941B4E1007AC6AD /* 办理机动车转移登记业务.html in Resources */ = {isa = PBXBuildFile; fileRef = C60436A51941B4E1007AC6AD /* 办理机动车转移登记业务.html */; };
+		C60436AB1941B4E1007AC6AD /* 变更业务.html in Resources */ = {isa = PBXBuildFile; fileRef = C60436A61941B4E1007AC6AD /* 变更业务.html */; };
+		C60436AC1941B4E1007AC6AD /* 机动车抵押、解押业务.html in Resources */ = {isa = PBXBuildFile; fileRef = C60436A71941B4E1007AC6AD /* 机动车抵押、解押业务.html */; };
+		C60436AD1941B4E1007AC6AD /* 机动车补领业务.html in Resources */ = {isa = PBXBuildFile; fileRef = C60436A81941B4E1007AC6AD /* 机动车补领业务.html */; };
+		C60436B51941BD62007AC6AD /* 办理恢复驾驶资格业务.html in Resources */ = {isa = PBXBuildFile; fileRef = C60436AF1941BD62007AC6AD /* 办理恢复驾驶资格业务.html */; };
+		C60436B61941BD62007AC6AD /* 办理期满换证业务.html in Resources */ = {isa = PBXBuildFile; fileRef = C60436B01941BD62007AC6AD /* 办理期满换证业务.html */; };
+		C60436B71941BD62007AC6AD /* 办理满分学习业务.html in Resources */ = {isa = PBXBuildFile; fileRef = C60436B11941BD62007AC6AD /* 办理满分学习业务.html */; };
+		C60436B81941BD62007AC6AD /* 办理补证业务.html in Resources */ = {isa = PBXBuildFile; fileRef = C60436B21941BD62007AC6AD /* 办理补证业务.html */; };
+		C60436B91941BD62007AC6AD /* 办理驾驶人审验业务.html in Resources */ = {isa = PBXBuildFile; fileRef = C60436B31941BD62007AC6AD /* 办理驾驶人审验业务.html */; };
+		C60436BA1941BD62007AC6AD /* 驾驶证办理业务.html in Resources */ = {isa = PBXBuildFile; fileRef = C60436B41941BD62007AC6AD /* 驾驶证办理业务.html */; };
+		C60436C21941EA4F007AC6AD /* 寻衅滋事案例解析.html in Resources */ = {isa = PBXBuildFile; fileRef = C60436BC1941EA4F007AC6AD /* 寻衅滋事案例解析.html */; };
+		C60436C31941EA4F007AC6AD /* 扰乱单位秩序,选举秩序.html in Resources */ = {isa = PBXBuildFile; fileRef = C60436BD1941EA4F007AC6AD /* 扰乱单位秩序,选举秩序.html */; };
+		C60436C41941EA4F007AC6AD /* 故意伤害案例解析.html in Resources */ = {isa = PBXBuildFile; fileRef = C60436BE1941EA4F007AC6AD /* 故意伤害案例解析.html */; };
+		C60436C51941EA4F007AC6AD /* 殴打他人案例解析.html in Resources */ = {isa = PBXBuildFile; fileRef = C60436BF1941EA4F007AC6AD /* 殴打他人案例解析.html */; };
+		C60436C61941EA4F007AC6AD /* 盗窃罪案例解析.html in Resources */ = {isa = PBXBuildFile; fileRef = C60436C01941EA4F007AC6AD /* 盗窃罪案例解析.html */; };
+		C60436C71941EA4F007AC6AD /* 赌博案例解析.html in Resources */ = {isa = PBXBuildFile; fileRef = C60436C11941EA4F007AC6AD /* 赌博案例解析.html */; };
+		C60436D21941F331007AC6AD /* 外国人住宿登记表.html in Resources */ = {isa = PBXBuildFile; fileRef = C60436C81941F331007AC6AD /* 外国人住宿登记表.html */; };
+		C60436D31941F331007AC6AD /* 外国人住宿登记表.png in Resources */ = {isa = PBXBuildFile; fileRef = C60436C91941F331007AC6AD /* 外国人住宿登记表.png */; };
+		C60436D41941F331007AC6AD /* 外国人补发证件证明表.html in Resources */ = {isa = PBXBuildFile; fileRef = C60436CA1941F331007AC6AD /* 外国人补发证件证明表.html */; };
+		C60436D51941F331007AC6AD /* 外国人补发证件证明表.png in Resources */ = {isa = PBXBuildFile; fileRef = C60436CB1941F331007AC6AD /* 外国人补发证件证明表.png */; };
+		C60436D61941F331007AC6AD /* 境外人员护照报失登记表.html in Resources */ = {isa = PBXBuildFile; fileRef = C60436CC1941F331007AC6AD /* 境外人员护照报失登记表.html */; };
+		C60436D71941F331007AC6AD /* 境外人员护照报失登记表.png in Resources */ = {isa = PBXBuildFile; fileRef = C60436CD1941F331007AC6AD /* 境外人员护照报失登记表.png */; };
+		C60436D81941F331007AC6AD /* 外国人购租房责任保证书.html in Resources */ = {isa = PBXBuildFile; fileRef = C60436CE1941F331007AC6AD /* 外国人购租房责任保证书.html */; };
+		C60436D91941F331007AC6AD /* 外国人购租房责任保证书.png in Resources */ = {isa = PBXBuildFile; fileRef = C60436CF1941F331007AC6AD /* 外国人购租房责任保证书.png */; };
+		C60436DA1941F331007AC6AD /* 涉外办事流程图.html in Resources */ = {isa = PBXBuildFile; fileRef = C60436D01941F331007AC6AD /* 涉外办事流程图.html */; };
+		C60436DB1941F331007AC6AD /* 涉外办事流程图.png in Resources */ = {isa = PBXBuildFile; fileRef = C60436D11941F331007AC6AD /* 涉外办事流程图.png */; };
+		C60C8D2619484A86007BADD8 /* 初家派出所至莱山分局地图.html in Resources */ = {isa = PBXBuildFile; fileRef = C60C8D1F19484A86007BADD8 /* 初家派出所至莱山分局地图.html */; };
+		C60C8D2719484A86007BADD8 /* 盛泉派出所至莱山分局地图.html in Resources */ = {isa = PBXBuildFile; fileRef = C60C8D2019484A86007BADD8 /* 盛泉派出所至莱山分局地图.html */; };
+		C60C8D2819484A86007BADD8 /* 望海派出所至莱山分局地图.html in Resources */ = {isa = PBXBuildFile; fileRef = C60C8D2119484A86007BADD8 /* 望海派出所至莱山分局地图.html */; };
+		C60C8D2919484A86007BADD8 /* 滨海派出所至莱山分局地图.html in Resources */ = {isa = PBXBuildFile; fileRef = C60C8D2219484A86007BADD8 /* 滨海派出所至莱山分局地图.html */; };
+		C60C8D2A19484A86007BADD8 /* 莱山派出所至莱山分局地图.html in Resources */ = {isa = PBXBuildFile; fileRef = C60C8D2319484A86007BADD8 /* 莱山派出所至莱山分局地图.html */; };
+		C60C8D2B19484A86007BADD8 /* 解甲庄派出所至莱山分局地图.html in Resources */ = {isa = PBXBuildFile; fileRef = C60C8D2419484A86007BADD8 /* 解甲庄派出所至莱山分局地图.html */; };
+		C60C8D2C19484A86007BADD8 /* 院格庄派出所至莱山分局地图.html in Resources */ = {isa = PBXBuildFile; fileRef = C60C8D2519484A86007BADD8 /* 院格庄派出所至莱山分局地图.html */; };
+		C61A844418DE751B00E074E8 /* newbar.png in Resources */ = {isa = PBXBuildFile; fileRef = C61A844318DE751B00E074E8 /* newbar.png */; };
+		C61A844918DE75A500E074E8 /* PMBChapterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61A844818DE75A500E074E8 /* PMBChapterTableViewController.m */; };
+		C61A844D18DEBD0D00E074E8 /* PMBSecondChapterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61A844C18DEBD0D00E074E8 /* PMBSecondChapterTableViewController.m */; };
+		C61A845018DEE70300E074E8 /* PMBContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61A844F18DEE70300E074E8 /* PMBContentViewController.m */; };
+		C63CD7C41942AD5500E27FAE /* 驾驶证.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7C31942AD5500E27FAE /* 驾驶证.png */; };
+		C63CD7C61942ADC500E27FAE /* 机动车.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7C51942ADC500E27FAE /* 机动车.png */; };
+		C63CD7C91942AED200E27FAE /* 殴打他人案例解析.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7C81942AED200E27FAE /* 殴打他人案例解析.png */; };
+		C63CD7CB1942AF3D00E27FAE /* 故意伤害案例解析.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7CA1942AF3D00E27FAE /* 故意伤害案例解析.png */; };
+		C63CD7CD1942AF9300E27FAE /* 寻衅滋事案例解析.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7CC1942AF9300E27FAE /* 寻衅滋事案例解析.png */; };
+		C63CD7CF1942B14800E27FAE /* 盗窃罪案例解析.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7CE1942B14800E27FAE /* 盗窃罪案例解析.png */; };
+		C63CD7D11942B17900E27FAE /* 赌博案例解析.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7D01942B17900E27FAE /* 赌博案例解析.png */; };
+		C63CD7D31942B21300E27FAE /* 扰乱单位秩序,选举秩序.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7D21942B21300E27FAE /* 扰乱单位秩序,选举秩序.png */; };
+		C63CD7D51942B2A300E27FAE /* 示范表格.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7D41942B2A300E27FAE /* 示范表格.png */; };
+		C63CD7DA1942FD9E00E27FAE /* tubiao.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7D91942FD9E00E27FAE /* tubiao.png */; };
+		C63CD7DC1942FFA000E27FAE /* tubiao120.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7DB1942FFA000E27FAE /* tubiao120.png */; };
+		C63CD7DE1943008D00E27FAE /* tubiao57.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7DD1943008D00E27FAE /* tubiao57.png */; };
+		C63CD7E11943017100E27FAE /* tubiao40.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7E01943017100E27FAE /* tubiao40.png */; };
+		C63CD7E31943026500E27FAE /* tubiao80.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7E21943026500E27FAE /* tubiao80.png */; };
+		C63CD7E51943038C00E27FAE /* tubiao58.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7E41943038C00E27FAE /* tubiao58.png */; };
+		C63CD7E7194303F000E27FAE /* tubiao29.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7E6194303F000E27FAE /* tubiao29.png */; };
+		C63CD7E91943050D00E27FAE /* tubiao100.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7E81943050D00E27FAE /* tubiao100.png */; };
+		C63CD7EB1943054400E27FAE /* tubiao50.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7EA1943054400E27FAE /* tubiao50.png */; };
+		C63CD7ED194305F600E27FAE /* tubiao72.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7EC194305F600E27FAE /* tubiao72.png */; };
+		C63CD7EF1943065500E27FAE /* tubiao144.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7EE1943065500E27FAE /* tubiao144.png */; };
+		C63CD7F1194306B000E27FAE /* tubiao152.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7F0194306B000E27FAE /* tubiao152.png */; };
+		C63CD7F3194306FE00E27FAE /* tubiao76.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7F2194306FE00E27FAE /* tubiao76.png */; };
+		C63CD7F51943097300E27FAE /* myLaunchR4.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7F41943097300E27FAE /* myLaunchR4.png */; };
+		C63CD7F719456DFC00E27FAE /* 警民通使用说明.html in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7F619456DFC00E27FAE /* 警民通使用说明.html */; };
+		C63CD7F919456E3300E27FAE /* 警民通使用说明.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7F819456E3300E27FAE /* 警民通使用说明.png */; };
+		C63CD80219459D9F00E27FAE /* 滨海派出所至莱山分局地图.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7FA19459D9F00E27FAE /* 滨海派出所至莱山分局地图.png */; };
+		C63CD80319459D9F00E27FAE /* 初家派出所至莱山分局地图.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7FB19459D9F00E27FAE /* 初家派出所至莱山分局地图.png */; };
+		C63CD80419459D9F00E27FAE /* 莱山派出所至莱山分局地图.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7FC19459D9F00E27FAE /* 莱山派出所至莱山分局地图.png */; };
+		C63CD80519459D9F00E27FAE /* 圣泉派出所至莱山分局地图.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7FD19459D9F00E27FAE /* 圣泉派出所至莱山分局地图.png */; };
+		C63CD80619459D9F00E27FAE /* 望海派出所至莱山分局地图.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7FE19459D9F00E27FAE /* 望海派出所至莱山分局地图.png */; };
+		C63CD80719459D9F00E27FAE /* 解甲庄派出所至莱山分局地图.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD7FF19459D9F00E27FAE /* 解甲庄派出所至莱山分局地图.png */; };
+		C63CD80819459D9F00E27FAE /* 瀛洲派出所至莱山分局地图.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD80019459D9F00E27FAE /* 瀛洲派出所至莱山分局地图.png */; };
+		C63CD80919459D9F00E27FAE /* 院格庄派出所至莱山分局地图.png in Resources */ = {isa = PBXBuildFile; fileRef = C63CD80119459D9F00E27FAE /* 院格庄派出所至莱山分局地图.png */; };
+		C63EB17018EAF3020084D8BD /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = C63EB16F18EAF3020084D8BD /* head.png */; };
+		C63EB17218EAF9120084D8BD /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = C63EB17118EAF9120084D8BD /* tail.png */; };
+		C6434D3B18EFABB900D9BA33 /* 户口迁出须知.html in Resources */ = {isa = PBXBuildFile; fileRef = C6434D3A18EFABB900D9BA33 /* 户口迁出须知.html */; };
+		C6434D3D18EFABC200D9BA33 /* 新生婴儿落户须知.html in Resources */ = {isa = PBXBuildFile; fileRef = C6434D3C18EFABC200D9BA33 /* 新生婴儿落户须知.html */; };
+		C6434D3F18EFABC900D9BA33 /* 死亡注销户口须知.html in Resources */ = {isa = PBXBuildFile; fileRef = C6434D3E18EFABC900D9BA33 /* 死亡注销户口须知.html */; };
+		C6434D4118EFABD500D9BA33 /* 大中专毕业生落户须知.html in Resources */ = {isa = PBXBuildFile; fileRef = C6434D4018EFABD500D9BA33 /* 大中专毕业生落户须知.html */; };
+		C6434D4318EFABDA00D9BA33 /* 分户须知.html in Resources */ = {isa = PBXBuildFile; fileRef = C6434D4218EFABDA00D9BA33 /* 分户须知.html */; };
+		C6434D4518EFABE900D9BA33 /* 退伍,转业落户须知.html in Resources */ = {isa = PBXBuildFile; fileRef = C6434D4418EFABE900D9BA33 /* 退伍,转业落户须知.html */; };
+		C6434D4718EFB0DC00D9BA33 /*  子女投靠父母入户.html in Resources */ = {isa = PBXBuildFile; fileRef = C6434D4618EFB0DC00D9BA33 /*  子女投靠父母入户.html */; };
+		C6434D4918EFB23D00D9BA33 /* 新生婴儿落户须知.png in Resources */ = {isa = PBXBuildFile; fileRef = C6434D4818EFB23D00D9BA33 /* 新生婴儿落户须知.png */; };
+		C6434D4B18EFB2AE00D9BA33 /* 大中专毕业生落户须知.png in Resources */ = {isa = PBXBuildFile; fileRef = C6434D4A18EFB2AE00D9BA33 /* 大中专毕业生落户须知.png */; };
+		C6434D4D18EFB30A00D9BA33 /* 退伍,转业落户须知.png in Resources */ = {isa = PBXBuildFile; fileRef = C6434D4C18EFB30A00D9BA33 /* 退伍,转业落户须知.png */; };
+		C6434D4F18EFB34600D9BA33 /* 死亡注销户口须知.png in Resources */ = {isa = PBXBuildFile; fileRef = C6434D4E18EFB34600D9BA33 /* 死亡注销户口须知.png */; };
+		C6434D5118EFB39800D9BA33 /* 分户须知.png in Resources */ = {isa = PBXBuildFile; fileRef = C6434D5018EFB39800D9BA33 /* 分户须知.png */; };
+		C6434D5318EFB42200D9BA33 /* 户口迁出须知.png in Resources */ = {isa = PBXBuildFile; fileRef = C6434D5218EFB42200D9BA33 /* 户口迁出须知.png */; };
+		C6620993193492DE0082E746 /* 各相关单位便民指南.html in Resources */ = {isa = PBXBuildFile; fileRef = C6620992193492DE0082E746 /* 各相关单位便民指南.html */; };
+		C66209951934995F0082E746 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = C66209941934995F0082E746 /* map.png */; };
+		C662099A19349A950082E746 /* 各派出所到达分局路线.html in Resources */ = {isa = PBXBuildFile; fileRef = C662099719349A950082E746 /* 各派出所到达分局路线.html */; };
+		C662099B19349A950082E746 /* 瀛洲派出所至莱山分局地图.html in Resources */ = {isa = PBXBuildFile; fileRef = C662099819349A950082E746 /* 瀛洲派出所至莱山分局地图.html */; };
+		C6766F9318E04EC700CE02E6 /* 身份证办理.png in Resources */ = {isa = PBXBuildFile; fileRef = C6766F9218E04EC700CE02E6 /* 身份证办理.png */; };
+		C6766F9818E053F800CE02E6 /* 旅馆业申办.png in Resources */ = {isa = PBXBuildFile; fileRef = C6766F9718E053F800CE02E6 /* 旅馆业申办.png */; };
+		C6766F9A18E053FC00CE02E6 /* 防范抢夺五法.png in Resources */ = {isa = PBXBuildFile; fileRef = C6766F9918E053FC00CE02E6 /* 防范抢夺五法.png */; };
+		C68392351935D49D00761EB8 /* 各派出所具体地址.html in Resources */ = {isa = PBXBuildFile; fileRef = C68392341935D49D00761EB8 /* 各派出所具体地址.html */; };
+		C68392371935D72400761EB8 /* cssreset.css in Resources */ = {isa = PBXBuildFile; fileRef = C68392361935D72400761EB8 /* cssreset.css */; };
+		C683923D1935EA7B00761EB8 /* 各派出所具体地址.png in Resources */ = {isa = PBXBuildFile; fileRef = C68392391935EA7B00761EB8 /* 各派出所具体地址.png */; };
+		C683923E1935EA7B00761EB8 /* 各派出所到达分局路线.png in Resources */ = {isa = PBXBuildFile; fileRef = C683923A1935EA7B00761EB8 /* 各派出所到达分局路线.png */; };
+		C68392401935EA7B00761EB8 /* 路线图.png in Resources */ = {isa = PBXBuildFile; fileRef = C683923C1935EA7B00761EB8 /* 路线图.png */; };
+		C68392421935EB0500761EB8 /* 各相关单位便民指南.png in Resources */ = {isa = PBXBuildFile; fileRef = C68392411935EB0500761EB8 /* 各相关单位便民指南.png */; };
+		C6A315B918ECEFD50095D13A /* manager.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A315B818ECEFD50095D13A /* manager.png */; };
+		C6A315BF18ECF7FD0095D13A /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A315BE18ECF7FD0095D13A /* house.png */; };
+		C6A315C118ECF82B0095D13A /* congress.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A315C018ECF82B0095D13A /* congress.png */; };
+		C6A315C318ECF9350095D13A /* traffic_light.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A315C218ECF9350095D13A /* traffic_light.png */; };
+		C6A315C718ED08980095D13A /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = C6A315C618ED08980095D13A /* jquery.min.js */; };
+		C6A315D418ED103C0095D13A /* 出租房屋登记办理.html in Resources */ = {isa = PBXBuildFile; fileRef = C6A315CD18ED103C0095D13A /* 出租房屋登记办理.html */; };
+		C6A315D718ED103C0095D13A /* 流动人口服务便民指南.html in Resources */ = {isa = PBXBuildFile; fileRef = C6A315D018ED103C0095D13A /* 流动人口服务便民指南.html */; };
+		C6A315D818ED103C0095D13A /* 父母投靠子女入户.html in Resources */ = {isa = PBXBuildFile; fileRef = C6A315D118ED103C0095D13A /* 父母投靠子女入户.html */; };
+		C6A315D918ED103C0095D13A /* 身份证办理.html in Resources */ = {isa = PBXBuildFile; fileRef = C6A315D218ED103C0095D13A /* 身份证办理.html */; };
+		C6A315DB18ED15900095D13A /* 父母投靠.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A315DA18ED15900095D13A /* 父母投靠.png */; };
+		C6A315DD18ED167E0095D13A /* 流动人口服务便民指南.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A315DC18ED167E0095D13A /* 流动人口服务便民指南.png */; };
+		C6A315DF18ED17320095D13A /* 户口迁出,新生儿落户,大中专毕业生落户等.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A315DE18ED17320095D13A /* 户口迁出,新生儿落户,大中专毕业生落户等.png */; };
+		C6A315E118ED179F0095D13A /* 夫妻投靠人员(莱山区内迁入).png in Resources */ = {isa = PBXBuildFile; fileRef = C6A315E018ED179F0095D13A /* 夫妻投靠人员(莱山区内迁入).png */; };
+		C6A315E318ED17FB0095D13A /* 出租房屋登记办理.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A315E218ED17FB0095D13A /* 出租房屋登记办理.png */; };
+		C6A315E518ED18A80095D13A /* 子女投靠父母人员(莱山区内迁入).png in Resources */ = {isa = PBXBuildFile; fileRef = C6A315E418ED18A80095D13A /* 子女投靠父母人员(莱山区内迁入).png */; };
+		C6AB4E27190D0AEC000C54DE /* 申请因私普通电子护照.html in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E1E190D0AEC000C54DE /* 申请因私普通电子护照.html */; };
+		C6AB4E28190D0AEC000C54DE /* 申请因私赴台湾.html in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E1F190D0AEC000C54DE /* 申请因私赴台湾.html */; };
+		C6AB4E29190D0AEC000C54DE /* 申请应邀赴台湾.html in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E20190D0AEC000C54DE /* 申请应邀赴台湾.html */; };
+		C6AB4E2A190D0AEC000C54DE /* 申请赴台湾旅游.html in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E21190D0AEC000C54DE /* 申请赴台湾旅游.html */; };
+		C6AB4E2B190D0AEC000C54DE /* 申请赴港澳商务洽谈.html in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E22190D0AEC000C54DE /* 申请赴港澳商务洽谈.html */; };
+		C6AB4E2C190D0AEC000C54DE /* 因私事申请赴港澳地区.html in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E23190D0AEC000C54DE /* 因私事申请赴港澳地区.html */; };
+		C6AB4E2D190D0AEC000C54DE /* 申请赴港澳就学,就业,培训.html in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E24190D0AEC000C54DE /* 申请赴港澳就学,就业,培训.html */; };
+		C6AB4E2E190D0AEC000C54DE /* 申请赴港澳地区探亲.html in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E25190D0AEC000C54DE /* 申请赴港澳地区探亲.html */; };
+		C6AB4E2F190D0AEC000C54DE /* 申请赴港澳地区旅游.html in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E26190D0AEC000C54DE /* 申请赴港澳地区旅游.html */; };
+		C6AB4E37190D0B96000C54DE /* 如何防范入室盗窃-防盗篇.html in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E32190D0B96000C54DE /* 如何防范入室盗窃-防盗篇.html */; };
+		C6AB4E38190D0B96000C54DE /* 开学防骗-防骗篇.html in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E33190D0B96000C54DE /* 开学防骗-防骗篇.html */; };
+		C6AB4E39190D0B96000C54DE /* 网络防范小常识.html in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E34190D0B96000C54DE /* 网络防范小常识.html */; };
+		C6AB4E3A190D0B96000C54DE /* 防抢小常识-防抢篇.html in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E35190D0B96000C54DE /* 防抢小常识-防抢篇.html */; };
+		C6AB4E3B190D0B96000C54DE /* 防火常识-防火篇.html in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E36190D0B96000C54DE /* 防火常识-防火篇.html */; };
+		C6AB4E3F190D26EE000C54DE /* 如何防范入室盗窃-防盗篇.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E3E190D26EE000C54DE /* 如何防范入室盗窃-防盗篇.png */; };
+		C6AB4E41190D272F000C54DE /* 开学防骗-防骗篇.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E40190D272F000C54DE /* 开学防骗-防骗篇.png */; };
+		C6AB4E43190D27E4000C54DE /* 网络防范小常识.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E42190D27E4000C54DE /* 网络防范小常识.png */; };
+		C6AB4E45190D286C000C54DE /* 防抢小常识-防抢篇.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E44190D286C000C54DE /* 防抢小常识-防抢篇.png */; };
+		C6AB4E47190D28C2000C54DE /* 防火常识-防火篇.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E46190D28C2000C54DE /* 防火常识-防火篇.png */; };
+		C6AB4E49190D2981000C54DE /* 申请因私普通电子护照.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E48190D2981000C54DE /* 申请因私普通电子护照.png */; };
+		C6AB4E4B190D2A05000C54DE /* 申请因私赴台湾.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E4A190D2A05000C54DE /* 申请因私赴台湾.png */; };
+		C6AB4E4D190D2A70000C54DE /* 申请应邀赴台湾.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E4C190D2A70000C54DE /* 申请应邀赴台湾.png */; };
+		C6AB4E4F190D2AA7000C54DE /* 申请赴台湾旅游.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E4E190D2AA7000C54DE /* 申请赴台湾旅游.png */; };
+		C6AB4E51190D2B0A000C54DE /* 申请赴港澳商务洽谈.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E50190D2B0A000C54DE /* 申请赴港澳商务洽谈.png */; };
+		C6AB4E53190D2B46000C54DE /* 因私事申请赴港澳地区.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E52190D2B46000C54DE /* 因私事申请赴港澳地区.png */; };
+		C6AB4E55190D2BBE000C54DE /* 申请赴港澳就学,就业,培训.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E54190D2BBE000C54DE /* 申请赴港澳就学,就业,培训.png */; };
+		C6AB4E57190D2C90000C54DE /* 申请赴港澳地区探亲.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E56190D2C90000C54DE /* 申请赴港澳地区探亲.png */; };
+		C6AB4E59190D2CF9000C54DE /* 申请赴港澳地区旅游.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AB4E58190D2CF9000C54DE /* 申请赴港澳地区旅游.png */; };
+		C6B9D33318DD8A86008F6FDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B9D33218DD8A86008F6FDC /* Foundation.framework */; };
+		C6B9D33518DD8A86008F6FDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B9D33418DD8A86008F6FDC /* CoreGraphics.framework */; };
+		C6B9D33718DD8A86008F6FDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B9D33618DD8A86008F6FDC /* UIKit.framework */; };
+		C6B9D33D18DD8A86008F6FDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6B9D33B18DD8A86008F6FDC /* InfoPlist.strings */; };
+		C6B9D33F18DD8A86008F6FDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B9D33E18DD8A86008F6FDC /* main.m */; };
+		C6B9D34318DD8A86008F6FDC /* PMBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B9D34218DD8A86008F6FDC /* PMBAppDelegate.m */; };
+		C6B9D34918DD8A86008F6FDC /* PMBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B9D34818DD8A86008F6FDC /* PMBViewController.m */; };
+		C6B9D35218DD8A86008F6FDC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B9D35118DD8A86008F6FDC /* XCTest.framework */; };
+		C6B9D35318DD8A86008F6FDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B9D33218DD8A86008F6FDC /* Foundation.framework */; };
+		C6B9D35418DD8A86008F6FDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B9D33618DD8A86008F6FDC /* UIKit.framework */; };
+		C6B9D35C18DD8A86008F6FDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6B9D35A18DD8A86008F6FDC /* InfoPlist.strings */; };
+		C6B9D35E18DD8A86008F6FDC /* PoliceMessageBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B9D35D18DD8A86008F6FDC /* PoliceMessageBoardTests.m */; };
+		C6B9D36818DD95A2008F6FDC /* Storyboard_iPhone4_IOS6.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B9D36718DD95A2008F6FDC /* Storyboard_iPhone4_IOS6.storyboard */; };
+		C6B9D36A18DD95B8008F6FDC /* Storyboard_iPhone4_IOS7.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B9D36918DD95B8008F6FDC /* Storyboard_iPhone4_IOS7.storyboard */; };
+		C6B9D36C18DD95CD008F6FDC /* Storyboard_iPhone5_IOS6.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B9D36B18DD95CD008F6FDC /* Storyboard_iPhone5_IOS6.storyboard */; };
+		C6B9D36E18DD95DF008F6FDC /* Storyboard_iPhone5_IOS7.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B9D36D18DD95DF008F6FDC /* Storyboard_iPhone5_IOS7.storyboard */; };
+		C6B9D37418DD9927008F6FDC /* residence_booklet.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B9D37318DD9927008F6FDC /* residence_booklet.png */; };
+		C6B9D37A18DD99C3008F6FDC /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B9D37918DD99C3008F6FDC /* compass.png */; };
+		C6B9D38118DD9A38008F6FDC /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B9D38018DD9A38008F6FDC /* bar.png */; };
+		C6B9D38318DD9D0D008F6FDC /* police.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B9D38218DD9D0D008F6FDC /* police.png */; };
+		C6B9D38518DD9D13008F6FDC /* police0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C6B9D38418DD9D13008F6FDC /* police0.jpeg */; };
+		C6B9D38718DD9D83008F6FDC /* jinghui.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B9D38618DD9D83008F6FDC /* jinghui.png */; };
+		C6B9D38918DD9DC6008F6FDC /* H.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B9D38818DD9DC6008F6FDC /* H.png */; };
+		C6CBCC3318F138B0007DD237 /* 夫妻投靠人员(烟台六区以外).html in Resources */ = {isa = PBXBuildFile; fileRef = C6CBCC3218F138B0007DD237 /* 夫妻投靠人员(烟台六区以外).html */; };
+		C6CBCC3518F13998007DD237 /* 夫妻投靠人员(六区之间迁入).html in Resources */ = {isa = PBXBuildFile; fileRef = C6CBCC3418F13998007DD237 /* 夫妻投靠人员(六区之间迁入).html */; };
+		C6CBCC3718F139E5007DD237 /* 夫妻投靠人员(莱山区内迁入).html in Resources */ = {isa = PBXBuildFile; fileRef = C6CBCC3618F139E5007DD237 /* 夫妻投靠人员(莱山区内迁入).html */; };
+		C6CBCC3918F13CEF007DD237 /* 父母投靠子女人员(六区之间迁入).html in Resources */ = {isa = PBXBuildFile; fileRef = C6CBCC3818F13CEF007DD237 /* 父母投靠子女人员(六区之间迁入).html */; };
+		C6CBCC3B18F13CF9007DD237 /* 父母投靠子女人员(烟台六区以外).html in Resources */ = {isa = PBXBuildFile; fileRef = C6CBCC3A18F13CF9007DD237 /* 父母投靠子女人员(烟台六区以外).html */; };
+		C6CBCC3D18F13DB2007DD237 /* 父母投靠子女人员(莱山区内迁入).html in Resources */ = {isa = PBXBuildFile; fileRef = C6CBCC3C18F13DB2007DD237 /* 父母投靠子女人员(莱山区内迁入).html */; };
+		C6CBCC3F18F1414D007DD237 /* 子女投靠父母人员(六区以外迁入).html in Resources */ = {isa = PBXBuildFile; fileRef = C6CBCC3E18F1414D007DD237 /* 子女投靠父母人员(六区以外迁入).html */; };
+		C6CBCC4118F14154007DD237 /* 子女投靠父母人员(六区之间迁入).html in Resources */ = {isa = PBXBuildFile; fileRef = C6CBCC4018F14154007DD237 /* 子女投靠父母人员(六区之间迁入).html */; };
+		C6CBCC4318F1415B007DD237 /* 子女投靠父母人员(莱山区内迁入).html in Resources */ = {isa = PBXBuildFile; fileRef = C6CBCC4218F1415B007DD237 /* 子女投靠父母人员(莱山区内迁入).html */; };
+		C6CBCC4518F14952007DD237 /* 夫妻投靠.png in Resources */ = {isa = PBXBuildFile; fileRef = C6CBCC4418F14952007DD237 /* 夫妻投靠.png */; };
+		C6CBCC4718F14957007DD237 /* 夫妻投靠人员(六区之间迁入).png in Resources */ = {isa = PBXBuildFile; fileRef = C6CBCC4618F14957007DD237 /* 夫妻投靠人员(六区之间迁入).png */; };
+		C6CBCC4918F14CC8007DD237 /* 父母投靠子女人员(烟台六区以外).png in Resources */ = {isa = PBXBuildFile; fileRef = C6CBCC4818F14CC8007DD237 /* 父母投靠子女人员(烟台六区以外).png */; };
+		C6CBCC4B18F14CCC007DD237 /* 父母投靠子女人员(六区之间迁入).png in Resources */ = {isa = PBXBuildFile; fileRef = C6CBCC4A18F14CCC007DD237 /* 父母投靠子女人员(六区之间迁入).png */; };
+		C6CBCC4D18F14CD2007DD237 /* 子女投靠父母人员(六区之间迁入).png in Resources */ = {isa = PBXBuildFile; fileRef = C6CBCC4C18F14CD2007DD237 /* 子女投靠父母人员(六区之间迁入).png */; };
+		C6CBCC4F18F14CD8007DD237 /* 子女投靠.png in Resources */ = {isa = PBXBuildFile; fileRef = C6CBCC4E18F14CD8007DD237 /* 子女投靠.png */; };
+		C6CBCC5318F16BF2007DD237 /* myLaunch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6CBCC5218F16BF2007DD237 /* myLaunch@2x.png */; };
+		C6CBCC5518F16BF8007DD237 /* p2.png in Resources */ = {isa = PBXBuildFile; fileRef = C6CBCC5418F16BF8007DD237 /* p2.png */; };
+		C6CBCC5718F16BFC007DD237 /* myLaunch.png in Resources */ = {isa = PBXBuildFile; fileRef = C6CBCC5618F16BFC007DD237 /* myLaunch.png */; };
+		C6CBCC5918F1722C007DD237 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6CBCC5818F1722C007DD237 /* Images.xcassets */; };
+		C6CBCC5B18F17419007DD237 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = C6CBCC5A18F17419007DD237 /* 8.png */; };
+		C6D662DF18F26BD90032ED52 /* 8-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C6D662DE18F26BD90032ED52 /* 8-1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6B9D35518DD8A86008F6FDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6B9D32718DD8A86008F6FDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6B9D32E18DD8A86008F6FDC;
+			remoteInfo = PoliceMessageBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C60436A41941B4E1007AC6AD /* 办理新车注册业务.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "办理新车注册业务.html"; sourceTree = "<group>"; };
+		C60436A51941B4E1007AC6AD /* 办理机动车转移登记业务.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "办理机动车转移登记业务.html"; sourceTree = "<group>"; };
+		C60436A61941B4E1007AC6AD /* 变更业务.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "变更业务.html"; sourceTree = "<group>"; };
+		C60436A71941B4E1007AC6AD /* 机动车抵押、解押业务.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "机动车抵押、解押业务.html"; sourceTree = "<group>"; };
+		C60436A81941B4E1007AC6AD /* 机动车补领业务.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "机动车补领业务.html"; sourceTree = "<group>"; };
+		C60436AF1941BD62007AC6AD /* 办理恢复驾驶资格业务.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "办理恢复驾驶资格业务.html"; sourceTree = "<group>"; };
+		C60436B01941BD62007AC6AD /* 办理期满换证业务.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "办理期满换证业务.html"; sourceTree = "<group>"; };
+		C60436B11941BD62007AC6AD /* 办理满分学习业务.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "办理满分学习业务.html"; sourceTree = "<group>"; };
+		C60436B21941BD62007AC6AD /* 办理补证业务.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "办理补证业务.html"; sourceTree = "<group>"; };
+		C60436B31941BD62007AC6AD /* 办理驾驶人审验业务.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "办理驾驶人审验业务.html"; sourceTree = "<group>"; };
+		C60436B41941BD62007AC6AD /* 驾驶证办理业务.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "驾驶证办理业务.html"; sourceTree = "<group>"; };
+		C60436BC1941EA4F007AC6AD /* 寻衅滋事案例解析.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "寻衅滋事案例解析.html"; sourceTree = "<group>"; };
+		C60436BD1941EA4F007AC6AD /* 扰乱单位秩序,选举秩序.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "扰乱单位秩序,选举秩序.html"; sourceTree = "<group>"; };
+		C60436BE1941EA4F007AC6AD /* 故意伤害案例解析.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "故意伤害案例解析.html"; sourceTree = "<group>"; };
+		C60436BF1941EA4F007AC6AD /* 殴打他人案例解析.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "殴打他人案例解析.html"; sourceTree = "<group>"; };
+		C60436C01941EA4F007AC6AD /* 盗窃罪案例解析.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "盗窃罪案例解析.html"; sourceTree = "<group>"; };
+		C60436C11941EA4F007AC6AD /* 赌博案例解析.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "赌博案例解析.html"; sourceTree = "<group>"; };
+		C60436C81941F331007AC6AD /* 外国人住宿登记表.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "外国人住宿登记表.html"; sourceTree = "<group>"; };
+		C60436C91941F331007AC6AD /* 外国人住宿登记表.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "外国人住宿登记表.png"; sourceTree = "<group>"; };
+		C60436CA1941F331007AC6AD /* 外国人补发证件证明表.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "外国人补发证件证明表.html"; sourceTree = "<group>"; };
+		C60436CB1941F331007AC6AD /* 外国人补发证件证明表.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "外国人补发证件证明表.png"; sourceTree = "<group>"; };
+		C60436CC1941F331007AC6AD /* 境外人员护照报失登记表.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "境外人员护照报失登记表.html"; sourceTree = "<group>"; };
+		C60436CD1941F331007AC6AD /* 境外人员护照报失登记表.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "境外人员护照报失登记表.png"; sourceTree = "<group>"; };
+		C60436CE1941F331007AC6AD /* 外国人购租房责任保证书.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "外国人购租房责任保证书.html"; sourceTree = "<group>"; };
+		C60436CF1941F331007AC6AD /* 外国人购租房责任保证书.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "外国人购租房责任保证书.png"; sourceTree = "<group>"; };
+		C60436D01941F331007AC6AD /* 涉外办事流程图.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "涉外办事流程图.html"; sourceTree = "<group>"; };
+		C60436D11941F331007AC6AD /* 涉外办事流程图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "涉外办事流程图.png"; sourceTree = "<group>"; };
+		C60C8D1F19484A86007BADD8 /* 初家派出所至莱山分局地图.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "初家派出所至莱山分局地图.html"; sourceTree = "<group>"; };
+		C60C8D2019484A86007BADD8 /* 盛泉派出所至莱山分局地图.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "盛泉派出所至莱山分局地图.html"; sourceTree = "<group>"; };
+		C60C8D2119484A86007BADD8 /* 望海派出所至莱山分局地图.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "望海派出所至莱山分局地图.html"; sourceTree = "<group>"; };
+		C60C8D2219484A86007BADD8 /* 滨海派出所至莱山分局地图.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "滨海派出所至莱山分局地图.html"; sourceTree = "<group>"; };
+		C60C8D2319484A86007BADD8 /* 莱山派出所至莱山分局地图.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "莱山派出所至莱山分局地图.html"; sourceTree = "<group>"; };
+		C60C8D2419484A86007BADD8 /* 解甲庄派出所至莱山分局地图.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "解甲庄派出所至莱山分局地图.html"; sourceTree = "<group>"; };
+		C60C8D2519484A86007BADD8 /* 院格庄派出所至莱山分局地图.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "院格庄派出所至莱山分局地图.html"; sourceTree = "<group>"; };
+		C61A844318DE751B00E074E8 /* newbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newbar.png; sourceTree = "<group>"; };
+		C61A844718DE75A500E074E8 /* PMBChapterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMBChapterTableViewController.h; sourceTree = "<group>"; };
+		C61A844818DE75A500E074E8 /* PMBChapterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMBChapterTableViewController.m; sourceTree = "<group>"; };
+		C61A844B18DEBD0D00E074E8 /* PMBSecondChapterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMBSecondChapterTableViewController.h; sourceTree = "<group>"; };
+		C61A844C18DEBD0D00E074E8 /* PMBSecondChapterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMBSecondChapterTableViewController.m; sourceTree = "<group>"; };
+		C61A844E18DEE70300E074E8 /* PMBContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMBContentViewController.h; sourceTree = "<group>"; };
+		C61A844F18DEE70300E074E8 /* PMBContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMBContentViewController.m; sourceTree = "<group>"; };
+		C63CD7C31942AD5500E27FAE /* 驾驶证.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "驾驶证.png"; sourceTree = "<group>"; };
+		C63CD7C51942ADC500E27FAE /* 机动车.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "机动车.png"; sourceTree = "<group>"; };
+		C63CD7C81942AED200E27FAE /* 殴打他人案例解析.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "殴打他人案例解析.png"; sourceTree = "<group>"; };
+		C63CD7CA1942AF3D00E27FAE /* 故意伤害案例解析.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "故意伤害案例解析.png"; sourceTree = "<group>"; };
+		C63CD7CC1942AF9300E27FAE /* 寻衅滋事案例解析.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "寻衅滋事案例解析.png"; sourceTree = "<group>"; };
+		C63CD7CE1942B14800E27FAE /* 盗窃罪案例解析.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "盗窃罪案例解析.png"; sourceTree = "<group>"; };
+		C63CD7D01942B17900E27FAE /* 赌博案例解析.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "赌博案例解析.png"; sourceTree = "<group>"; };
+		C63CD7D21942B21300E27FAE /* 扰乱单位秩序,选举秩序.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扰乱单位秩序,选举秩序.png"; sourceTree = "<group>"; };
+		C63CD7D41942B2A300E27FAE /* 示范表格.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "示范表格.png"; sourceTree = "<group>"; };
+		C63CD7D91942FD9E00E27FAE /* tubiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tubiao.png; sourceTree = "<group>"; };
+		C63CD7DB1942FFA000E27FAE /* tubiao120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tubiao120.png; sourceTree = "<group>"; };
+		C63CD7DD1943008D00E27FAE /* tubiao57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tubiao57.png; sourceTree = "<group>"; };
+		C63CD7E01943017100E27FAE /* tubiao40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tubiao40.png; sourceTree = "<group>"; };
+		C63CD7E21943026500E27FAE /* tubiao80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tubiao80.png; sourceTree = "<group>"; };
+		C63CD7E41943038C00E27FAE /* tubiao58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tubiao58.png; sourceTree = "<group>"; };
+		C63CD7E6194303F000E27FAE /* tubiao29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tubiao29.png; sourceTree = "<group>"; };
+		C63CD7E81943050D00E27FAE /* tubiao100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tubiao100.png; sourceTree = "<group>"; };
+		C63CD7EA1943054400E27FAE /* tubiao50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tubiao50.png; sourceTree = "<group>"; };
+		C63CD7EC194305F600E27FAE /* tubiao72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tubiao72.png; sourceTree = "<group>"; };
+		C63CD7EE1943065500E27FAE /* tubiao144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tubiao144.png; sourceTree = "<group>"; };
+		C63CD7F0194306B000E27FAE /* tubiao152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tubiao152.png; sourceTree = "<group>"; };
+		C63CD7F2194306FE00E27FAE /* tubiao76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tubiao76.png; sourceTree = "<group>"; };
+		C63CD7F41943097300E27FAE /* myLaunchR4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myLaunchR4.png; path = PoliceMessageBoard/myLaunchR4.png; sourceTree = "<group>"; };
+		C63CD7F619456DFC00E27FAE /* 警民通使用说明.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "警民通使用说明.html"; sourceTree = "<group>"; };
+		C63CD7F819456E3300E27FAE /* 警民通使用说明.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "警民通使用说明.png"; sourceTree = "<group>"; };
+		C63CD7FA19459D9F00E27FAE /* 滨海派出所至莱山分局地图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "滨海派出所至莱山分局地图.png"; sourceTree = "<group>"; };
+		C63CD7FB19459D9F00E27FAE /* 初家派出所至莱山分局地图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "初家派出所至莱山分局地图.png"; sourceTree = "<group>"; };
+		C63CD7FC19459D9F00E27FAE /* 莱山派出所至莱山分局地图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "莱山派出所至莱山分局地图.png"; sourceTree = "<group>"; };
+		C63CD7FD19459D9F00E27FAE /* 圣泉派出所至莱山分局地图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "圣泉派出所至莱山分局地图.png"; sourceTree = "<group>"; };
+		C63CD7FE19459D9F00E27FAE /* 望海派出所至莱山分局地图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "望海派出所至莱山分局地图.png"; sourceTree = "<group>"; };
+		C63CD7FF19459D9F00E27FAE /* 解甲庄派出所至莱山分局地图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "解甲庄派出所至莱山分局地图.png"; sourceTree = "<group>"; };
+		C63CD80019459D9F00E27FAE /* 瀛洲派出所至莱山分局地图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "瀛洲派出所至莱山分局地图.png"; sourceTree = "<group>"; };
+		C63CD80119459D9F00E27FAE /* 院格庄派出所至莱山分局地图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "院格庄派出所至莱山分局地图.png"; sourceTree = "<group>"; };
+		C63EB16F18EAF3020084D8BD /* head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head.png; sourceTree = "<group>"; };
+		C63EB17118EAF9120084D8BD /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		C6434D3A18EFABB900D9BA33 /* 户口迁出须知.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "户口迁出须知.html"; sourceTree = "<group>"; };
+		C6434D3C18EFABC200D9BA33 /* 新生婴儿落户须知.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "新生婴儿落户须知.html"; sourceTree = "<group>"; };
+		C6434D3E18EFABC900D9BA33 /* 死亡注销户口须知.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "死亡注销户口须知.html"; sourceTree = "<group>"; };
+		C6434D4018EFABD500D9BA33 /* 大中专毕业生落户须知.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "大中专毕业生落户须知.html"; sourceTree = "<group>"; };
+		C6434D4218EFABDA00D9BA33 /* 分户须知.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "分户须知.html"; sourceTree = "<group>"; };
+		C6434D4418EFABE900D9BA33 /* 退伍,转业落户须知.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "退伍,转业落户须知.html"; sourceTree = "<group>"; };
+		C6434D4618EFB0DC00D9BA33 /*  子女投靠父母入户.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = " 子女投靠父母入户.html"; sourceTree = "<group>"; };
+		C6434D4818EFB23D00D9BA33 /* 新生婴儿落户须知.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新生婴儿落户须知.png"; sourceTree = "<group>"; };
+		C6434D4A18EFB2AE00D9BA33 /* 大中专毕业生落户须知.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大中专毕业生落户须知.png"; sourceTree = "<group>"; };
+		C6434D4C18EFB30A00D9BA33 /* 退伍,转业落户须知.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "退伍,转业落户须知.png"; sourceTree = "<group>"; };
+		C6434D4E18EFB34600D9BA33 /* 死亡注销户口须知.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "死亡注销户口须知.png"; sourceTree = "<group>"; };
+		C6434D5018EFB39800D9BA33 /* 分户须知.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分户须知.png"; sourceTree = "<group>"; };
+		C6434D5218EFB42200D9BA33 /* 户口迁出须知.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "户口迁出须知.png"; sourceTree = "<group>"; };
+		C6620992193492DE0082E746 /* 各相关单位便民指南.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "各相关单位便民指南.html"; sourceTree = "<group>"; };
+		C66209941934995F0082E746 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		C662099719349A950082E746 /* 各派出所到达分局路线.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "各派出所到达分局路线.html"; sourceTree = "<group>"; };
+		C662099819349A950082E746 /* 瀛洲派出所至莱山分局地图.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "瀛洲派出所至莱山分局地图.html"; sourceTree = "<group>"; };
+		C6766F9218E04EC700CE02E6 /* 身份证办理.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "身份证办理.png"; sourceTree = "<group>"; };
+		C6766F9718E053F800CE02E6 /* 旅馆业申办.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "旅馆业申办.png"; sourceTree = "<group>"; };
+		C6766F9918E053FC00CE02E6 /* 防范抢夺五法.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "防范抢夺五法.png"; sourceTree = "<group>"; };
+		C68392341935D49D00761EB8 /* 各派出所具体地址.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "各派出所具体地址.html"; sourceTree = "<group>"; };
+		C68392361935D72400761EB8 /* cssreset.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = cssreset.css; sourceTree = "<group>"; };
+		C68392391935EA7B00761EB8 /* 各派出所具体地址.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "各派出所具体地址.png"; sourceTree = "<group>"; };
+		C683923A1935EA7B00761EB8 /* 各派出所到达分局路线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "各派出所到达分局路线.png"; sourceTree = "<group>"; };
+		C683923C1935EA7B00761EB8 /* 路线图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "路线图.png"; sourceTree = "<group>"; };
+		C68392411935EB0500761EB8 /* 各相关单位便民指南.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "各相关单位便民指南.png"; sourceTree = "<group>"; };
+		C6A315B818ECEFD50095D13A /* manager.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manager.png; sourceTree = "<group>"; };
+		C6A315BE18ECF7FD0095D13A /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		C6A315C018ECF82B0095D13A /* congress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = congress.png; sourceTree = "<group>"; };
+		C6A315C218ECF9350095D13A /* traffic_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = traffic_light.png; sourceTree = "<group>"; };
+		C6A315C618ED08980095D13A /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.min.js; sourceTree = "<group>"; };
+		C6A315CD18ED103C0095D13A /* 出租房屋登记办理.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "出租房屋登记办理.html"; sourceTree = "<group>"; };
+		C6A315D018ED103C0095D13A /* 流动人口服务便民指南.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "流动人口服务便民指南.html"; sourceTree = "<group>"; };
+		C6A315D118ED103C0095D13A /* 父母投靠子女入户.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "父母投靠子女入户.html"; sourceTree = "<group>"; };
+		C6A315D218ED103C0095D13A /* 身份证办理.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "身份证办理.html"; sourceTree = "<group>"; };
+		C6A315DA18ED15900095D13A /* 父母投靠.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "父母投靠.png"; sourceTree = "<group>"; };
+		C6A315DC18ED167E0095D13A /* 流动人口服务便民指南.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "流动人口服务便民指南.png"; sourceTree = "<group>"; };
+		C6A315DE18ED17320095D13A /* 户口迁出,新生儿落户,大中专毕业生落户等.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "户口迁出,新生儿落户,大中专毕业生落户等.png"; sourceTree = "<group>"; };
+		C6A315E018ED179F0095D13A /* 夫妻投靠人员(莱山区内迁入).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "夫妻投靠人员(莱山区内迁入).png"; sourceTree = "<group>"; };
+		C6A315E218ED17FB0095D13A /* 出租房屋登记办理.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "出租房屋登记办理.png"; sourceTree = "<group>"; };
+		C6A315E418ED18A80095D13A /* 子女投靠父母人员(莱山区内迁入).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "子女投靠父母人员(莱山区内迁入).png"; sourceTree = "<group>"; };
+		C6AB4E1E190D0AEC000C54DE /* 申请因私普通电子护照.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "申请因私普通电子护照.html"; sourceTree = "<group>"; };
+		C6AB4E1F190D0AEC000C54DE /* 申请因私赴台湾.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "申请因私赴台湾.html"; sourceTree = "<group>"; };
+		C6AB4E20190D0AEC000C54DE /* 申请应邀赴台湾.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "申请应邀赴台湾.html"; sourceTree = "<group>"; };
+		C6AB4E21190D0AEC000C54DE /* 申请赴台湾旅游.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "申请赴台湾旅游.html"; sourceTree = "<group>"; };
+		C6AB4E22190D0AEC000C54DE /* 申请赴港澳商务洽谈.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "申请赴港澳商务洽谈.html"; sourceTree = "<group>"; };
+		C6AB4E23190D0AEC000C54DE /* 因私事申请赴港澳地区.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "因私事申请赴港澳地区.html"; sourceTree = "<group>"; };
+		C6AB4E24190D0AEC000C54DE /* 申请赴港澳就学,就业,培训.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "申请赴港澳就学,就业,培训.html"; sourceTree = "<group>"; };
+		C6AB4E25190D0AEC000C54DE /* 申请赴港澳地区探亲.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "申请赴港澳地区探亲.html"; sourceTree = "<group>"; };
+		C6AB4E26190D0AEC000C54DE /* 申请赴港澳地区旅游.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "申请赴港澳地区旅游.html"; sourceTree = "<group>"; };
+		C6AB4E32190D0B96000C54DE /* 如何防范入室盗窃-防盗篇.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "如何防范入室盗窃-防盗篇.html"; sourceTree = "<group>"; };
+		C6AB4E33190D0B96000C54DE /* 开学防骗-防骗篇.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "开学防骗-防骗篇.html"; sourceTree = "<group>"; };
+		C6AB4E34190D0B96000C54DE /* 网络防范小常识.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "网络防范小常识.html"; sourceTree = "<group>"; };
+		C6AB4E35190D0B96000C54DE /* 防抢小常识-防抢篇.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "防抢小常识-防抢篇.html"; sourceTree = "<group>"; };
+		C6AB4E36190D0B96000C54DE /* 防火常识-防火篇.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "防火常识-防火篇.html"; sourceTree = "<group>"; };
+		C6AB4E3E190D26EE000C54DE /* 如何防范入室盗窃-防盗篇.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "如何防范入室盗窃-防盗篇.png"; sourceTree = "<group>"; };
+		C6AB4E40190D272F000C54DE /* 开学防骗-防骗篇.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开学防骗-防骗篇.png"; sourceTree = "<group>"; };
+		C6AB4E42190D27E4000C54DE /* 网络防范小常识.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "网络防范小常识.png"; sourceTree = "<group>"; };
+		C6AB4E44190D286C000C54DE /* 防抢小常识-防抢篇.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "防抢小常识-防抢篇.png"; sourceTree = "<group>"; };
+		C6AB4E46190D28C2000C54DE /* 防火常识-防火篇.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "防火常识-防火篇.png"; sourceTree = "<group>"; };
+		C6AB4E48190D2981000C54DE /* 申请因私普通电子护照.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "申请因私普通电子护照.png"; sourceTree = "<group>"; };
+		C6AB4E4A190D2A05000C54DE /* 申请因私赴台湾.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "申请因私赴台湾.png"; sourceTree = "<group>"; };
+		C6AB4E4C190D2A70000C54DE /* 申请应邀赴台湾.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "申请应邀赴台湾.png"; sourceTree = "<group>"; };
+		C6AB4E4E190D2AA7000C54DE /* 申请赴台湾旅游.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "申请赴台湾旅游.png"; sourceTree = "<group>"; };
+		C6AB4E50190D2B0A000C54DE /* 申请赴港澳商务洽谈.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "申请赴港澳商务洽谈.png"; sourceTree = "<group>"; };
+		C6AB4E52190D2B46000C54DE /* 因私事申请赴港澳地区.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "因私事申请赴港澳地区.png"; sourceTree = "<group>"; };
+		C6AB4E54190D2BBE000C54DE /* 申请赴港澳就学,就业,培训.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "申请赴港澳就学,就业,培训.png"; sourceTree = "<group>"; };
+		C6AB4E56190D2C90000C54DE /* 申请赴港澳地区探亲.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "申请赴港澳地区探亲.png"; sourceTree = "<group>"; };
+		C6AB4E58190D2CF9000C54DE /* 申请赴港澳地区旅游.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "申请赴港澳地区旅游.png"; sourceTree = "<group>"; };
+		C6B9D32F18DD8A86008F6FDC /* 莱山公安.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "莱山公安.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B9D33218DD8A86008F6FDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C6B9D33418DD8A86008F6FDC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C6B9D33618DD8A86008F6FDC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C6B9D33A18DD8A86008F6FDC /* LaiShanPolice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LaiShanPolice-Info.plist"; sourceTree = "<group>"; };
+		C6B9D33C18DD8A86008F6FDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6B9D33E18DD8A86008F6FDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6B9D34018DD8A86008F6FDC /* LaiShanPolice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LaiShanPolice-Prefix.pch"; sourceTree = "<group>"; };
+		C6B9D34118DD8A86008F6FDC /* PMBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMBAppDelegate.h; sourceTree = "<group>"; };
+		C6B9D34218DD8A86008F6FDC /* PMBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMBAppDelegate.m; sourceTree = "<group>"; };
+		C6B9D34718DD8A86008F6FDC /* PMBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMBViewController.h; sourceTree = "<group>"; };
+		C6B9D34818DD8A86008F6FDC /* PMBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMBViewController.m; sourceTree = "<group>"; };
+		C6B9D35018DD8A86008F6FDC /* LaiShanPoliceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaiShanPoliceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B9D35118DD8A86008F6FDC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C6B9D35918DD8A86008F6FDC /* LaiShanPoliceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LaiShanPoliceTests-Info.plist"; sourceTree = "<group>"; };
+		C6B9D35B18DD8A86008F6FDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6B9D35D18DD8A86008F6FDC /* PoliceMessageBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoliceMessageBoardTests.m; sourceTree = "<group>"; };
+		C6B9D36718DD95A2008F6FDC /* Storyboard_iPhone4_IOS6.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_iPhone4_IOS6.storyboard; sourceTree = "<group>"; };
+		C6B9D36918DD95B8008F6FDC /* Storyboard_iPhone4_IOS7.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_iPhone4_IOS7.storyboard; sourceTree = "<group>"; };
+		C6B9D36B18DD95CD008F6FDC /* Storyboard_iPhone5_IOS6.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_iPhone5_IOS6.storyboard; sourceTree = "<group>"; };
+		C6B9D36D18DD95DF008F6FDC /* Storyboard_iPhone5_IOS7.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_iPhone5_IOS7.storyboard; sourceTree = "<group>"; };
+		C6B9D37318DD9927008F6FDC /* residence_booklet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = residence_booklet.png; sourceTree = "<group>"; };
+		C6B9D37918DD99C3008F6FDC /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass.png; sourceTree = "<group>"; };
+		C6B9D38018DD9A38008F6FDC /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		C6B9D38218DD9D0D008F6FDC /* police.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = police.png; sourceTree = "<group>"; };
+		C6B9D38418DD9D13008F6FDC /* police0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = police0.jpeg; sourceTree = "<group>"; };
+		C6B9D38618DD9D83008F6FDC /* jinghui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jinghui.png; sourceTree = "<group>"; };
+		C6B9D38818DD9DC6008F6FDC /* H.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = H.png; sourceTree = "<group>"; };
+		C6CBCC3218F138B0007DD237 /* 夫妻投靠人员(烟台六区以外).html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "夫妻投靠人员(烟台六区以外).html"; sourceTree = "<group>"; };
+		C6CBCC3418F13998007DD237 /* 夫妻投靠人员(六区之间迁入).html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "夫妻投靠人员(六区之间迁入).html"; sourceTree = "<group>"; };
+		C6CBCC3618F139E5007DD237 /* 夫妻投靠人员(莱山区内迁入).html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "夫妻投靠人员(莱山区内迁入).html"; sourceTree = "<group>"; };
+		C6CBCC3818F13CEF007DD237 /* 父母投靠子女人员(六区之间迁入).html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "父母投靠子女人员(六区之间迁入).html"; sourceTree = "<group>"; };
+		C6CBCC3A18F13CF9007DD237 /* 父母投靠子女人员(烟台六区以外).html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "父母投靠子女人员(烟台六区以外).html"; sourceTree = "<group>"; };
+		C6CBCC3C18F13DB2007DD237 /* 父母投靠子女人员(莱山区内迁入).html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "父母投靠子女人员(莱山区内迁入).html"; sourceTree = "<group>"; };
+		C6CBCC3E18F1414D007DD237 /* 子女投靠父母人员(六区以外迁入).html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "子女投靠父母人员(六区以外迁入).html"; sourceTree = "<group>"; };
+		C6CBCC4018F14154007DD237 /* 子女投靠父母人员(六区之间迁入).html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "子女投靠父母人员(六区之间迁入).html"; sourceTree = "<group>"; };
+		C6CBCC4218F1415B007DD237 /* 子女投靠父母人员(莱山区内迁入).html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "子女投靠父母人员(莱山区内迁入).html"; sourceTree = "<group>"; };
+		C6CBCC4418F14952007DD237 /* 夫妻投靠.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "夫妻投靠.png"; sourceTree = "<group>"; };
+		C6CBCC4618F14957007DD237 /* 夫妻投靠人员(六区之间迁入).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "夫妻投靠人员(六区之间迁入).png"; sourceTree = "<group>"; };
+		C6CBCC4818F14CC8007DD237 /* 父母投靠子女人员(烟台六区以外).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "父母投靠子女人员(烟台六区以外).png"; sourceTree = "<group>"; };
+		C6CBCC4A18F14CCC007DD237 /* 父母投靠子女人员(六区之间迁入).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "父母投靠子女人员(六区之间迁入).png"; sourceTree = "<group>"; };
+		C6CBCC4C18F14CD2007DD237 /* 子女投靠父母人员(六区之间迁入).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "子女投靠父母人员(六区之间迁入).png"; sourceTree = "<group>"; };
+		C6CBCC4E18F14CD8007DD237 /* 子女投靠.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "子女投靠.png"; sourceTree = "<group>"; };
+		C6CBCC5218F16BF2007DD237 /* myLaunch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "myLaunch@2x.png"; path = "PoliceMessageBoard/myLaunch@2x.png"; sourceTree = "<group>"; };
+		C6CBCC5418F16BF8007DD237 /* p2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = p2.png; path = PoliceMessageBoard/p2.png; sourceTree = "<group>"; };
+		C6CBCC5618F16BFC007DD237 /* myLaunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myLaunch.png; path = PoliceMessageBoard/myLaunch.png; sourceTree = "<group>"; };
+		C6CBCC5818F1722C007DD237 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C6CBCC5A18F17419007DD237 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8.png; path = PoliceMessageBoard/8.png; sourceTree = "<group>"; };
+		C6D662DE18F26BD90032ED52 /* 8-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "8-1.png"; path = "PoliceMessageBoard/8-1.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6B9D32C18DD8A86008F6FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B9D33518DD8A86008F6FDC /* CoreGraphics.framework in Frameworks */,
+				C6B9D33718DD8A86008F6FDC /* UIKit.framework in Frameworks */,
+				C6B9D33318DD8A86008F6FDC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B9D34D18DD8A86008F6FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B9D35218DD8A86008F6FDC /* XCTest.framework in Frameworks */,
+				C6B9D35418DD8A86008F6FDC /* UIKit.framework in Frameworks */,
+				C6B9D35318DD8A86008F6FDC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C60436A319418C11007AC6AD /* che_guan_ye_wu */ = {
+			isa = PBXGroup;
+			children = (
+				C63CD7C21942AD4200E27FAE /* che_guan_ye_wu_img */,
+				C60436AF1941BD62007AC6AD /* 办理恢复驾驶资格业务.html */,
+				C60436B01941BD62007AC6AD /* 办理期满换证业务.html */,
+				C60436B11941BD62007AC6AD /* 办理满分学习业务.html */,
+				C60436B21941BD62007AC6AD /* 办理补证业务.html */,
+				C60436B31941BD62007AC6AD /* 办理驾驶人审验业务.html */,
+				C60436B41941BD62007AC6AD /* 驾驶证办理业务.html */,
+				C60436A41941B4E1007AC6AD /* 办理新车注册业务.html */,
+				C60436A51941B4E1007AC6AD /* 办理机动车转移登记业务.html */,
+				C60436A61941B4E1007AC6AD /* 变更业务.html */,
+				C60436A71941B4E1007AC6AD /* 机动车抵押、解押业务.html */,
+				C60436A81941B4E1007AC6AD /* 机动车补领业务.html */,
+			);
+			name = che_guan_ye_wu;
+			sourceTree = "<group>";
+		};
+		C60436BB1941EA3F007AC6AD /* yi_an_xi_fa */ = {
+			isa = PBXGroup;
+			children = (
+				C63CD7C71942AEC300E27FAE /* yi_an_xi_fa_img */,
+				C60436BC1941EA4F007AC6AD /* 寻衅滋事案例解析.html */,
+				C60436BD1941EA4F007AC6AD /* 扰乱单位秩序,选举秩序.html */,
+				C60436BE1941EA4F007AC6AD /* 故意伤害案例解析.html */,
+				C60436BF1941EA4F007AC6AD /* 殴打他人案例解析.html */,
+				C60436C01941EA4F007AC6AD /* 盗窃罪案例解析.html */,
+				C60436C11941EA4F007AC6AD /* 赌博案例解析.html */,
+			);
+			name = yi_an_xi_fa;
+			sourceTree = "<group>";
+		};
+		C61A844518DE752100E074E8 /* ChapterTableViewResource */ = {
+			isa = PBXGroup;
+			children = (
+				C61A844318DE751B00E074E8 /* newbar.png */,
+			);
+			name = ChapterTableViewResource;
+			sourceTree = "<group>";
+		};
+		C61A844618DE756500E074E8 /* ChapterTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C61A844718DE75A500E074E8 /* PMBChapterTableViewController.h */,
+				C61A844818DE75A500E074E8 /* PMBChapterTableViewController.m */,
+				C61A844B18DEBD0D00E074E8 /* PMBSecondChapterTableViewController.h */,
+				C61A844C18DEBD0D00E074E8 /* PMBSecondChapterTableViewController.m */,
+			);
+			name = ChapterTableViewController;
+			sourceTree = "<group>";
+		};
+		C61A845118DEE71B00E074E8 /* ContentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C61A844E18DEE70300E074E8 /* PMBContentViewController.h */,
+				C61A844F18DEE70300E074E8 /* PMBContentViewController.m */,
+			);
+			name = ContentViewController;
+			sourceTree = "<group>";
+		};
+		C61A845218DEFD5300E074E8 /* Html */ = {
+			isa = PBXGroup;
+			children = (
+				C60436BB1941EA3F007AC6AD /* yi_an_xi_fa */,
+				C60436A319418C11007AC6AD /* che_guan_ye_wu */,
+				C6620991193492B30082E746 /* bian_min_tie_shi */,
+				C6AB4E30190D0B6D000C54DE /* fang_fan_xiao_chang_shi */,
+				C6AB4E1C190CFEC4000C54DE /* chu_jing_zhi_nan */,
+				C6A315C418ED05390095D13A /* res */,
+				C6766F9618E0522700CE02E6 /* roadRule */,
+				C61A845518DF0A8600E074E8 /* hu_zheng_fu_wu */,
+			);
+			name = Html;
+			sourceTree = "<group>";
+		};
+		C61A845518DF0A8600E074E8 /* hu_zheng_fu_wu */ = {
+			isa = PBXGroup;
+			children = (
+				C6CBCC3218F138B0007DD237 /* 夫妻投靠人员(烟台六区以外).html */,
+				C6CBCC3418F13998007DD237 /* 夫妻投靠人员(六区之间迁入).html */,
+				C6CBCC3618F139E5007DD237 /* 夫妻投靠人员(莱山区内迁入).html */,
+				C6CBCC3818F13CEF007DD237 /* 父母投靠子女人员(六区之间迁入).html */,
+				C6CBCC3A18F13CF9007DD237 /* 父母投靠子女人员(烟台六区以外).html */,
+				C6CBCC3C18F13DB2007DD237 /* 父母投靠子女人员(莱山区内迁入).html */,
+				C6CBCC3E18F1414D007DD237 /* 子女投靠父母人员(六区以外迁入).html */,
+				C6CBCC4018F14154007DD237 /* 子女投靠父母人员(六区之间迁入).html */,
+				C6CBCC4218F1415B007DD237 /* 子女投靠父母人员(莱山区内迁入).html */,
+				C6434D4418EFABE900D9BA33 /* 退伍,转业落户须知.html */,
+				C6434D4218EFABDA00D9BA33 /* 分户须知.html */,
+				C6434D4018EFABD500D9BA33 /* 大中专毕业生落户须知.html */,
+				C6434D3E18EFABC900D9BA33 /* 死亡注销户口须知.html */,
+				C6434D3C18EFABC200D9BA33 /* 新生婴儿落户须知.html */,
+				C6434D3A18EFABB900D9BA33 /* 户口迁出须知.html */,
+				C6A315CD18ED103C0095D13A /* 出租房屋登记办理.html */,
+				C6434D4618EFB0DC00D9BA33 /*  子女投靠父母入户.html */,
+				C6A315D018ED103C0095D13A /* 流动人口服务便民指南.html */,
+				C6A315D118ED103C0095D13A /* 父母投靠子女入户.html */,
+				C6A315D218ED103C0095D13A /* 身份证办理.html */,
+				C6A315C518ED07BF0095D13A /* hu_zheng_fu_wu_img */,
+			);
+			name = hu_zheng_fu_wu;
+			sourceTree = "<group>";
+		};
+		C63CD7C21942AD4200E27FAE /* che_guan_ye_wu_img */ = {
+			isa = PBXGroup;
+			children = (
+				C63CD7C31942AD5500E27FAE /* 驾驶证.png */,
+				C63CD7C51942ADC500E27FAE /* 机动车.png */,
+			);
+			name = che_guan_ye_wu_img;
+			sourceTree = "<group>";
+		};
+		C63CD7C71942AEC300E27FAE /* yi_an_xi_fa_img */ = {
+			isa = PBXGroup;
+			children = (
+				C63CD7CC1942AF9300E27FAE /* 寻衅滋事案例解析.png */,
+				C63CD7CA1942AF3D00E27FAE /* 故意伤害案例解析.png */,
+				C63CD7D01942B17900E27FAE /* 赌博案例解析.png */,
+				C63CD7D21942B21300E27FAE /* 扰乱单位秩序,选举秩序.png */,
+				C63CD7D41942B2A300E27FAE /* 示范表格.png */,
+				C63CD7C81942AED200E27FAE /* 殴打他人案例解析.png */,
+				C63CD7CE1942B14800E27FAE /* 盗窃罪案例解析.png */,
+			);
+			name = yi_an_xi_fa_img;
+			sourceTree = "<group>";
+		};
+		C63CD7D61942EFCB00E27FAE /* tubiao */ = {
+			isa = PBXGroup;
+			children = (
+				C6CBCC5418F16BF8007DD237 /* p2.png */,
+				C6CBCC5A18F17419007DD237 /* 8.png */,
+				C6D662DE18F26BD90032ED52 /* 8-1.png */,
+				C63CD7F41943097300E27FAE /* myLaunchR4.png */,
+				C6CBCC5218F16BF2007DD237 /* myLaunch@2x.png */,
+				C63CD7DB1942FFA000E27FAE /* tubiao120.png */,
+				C63CD7E01943017100E27FAE /* tubiao40.png */,
+				C63CD7E21943026500E27FAE /* tubiao80.png */,
+				C63CD7DD1943008D00E27FAE /* tubiao57.png */,
+				C63CD7E41943038C00E27FAE /* tubiao58.png */,
+				C63CD7E6194303F000E27FAE /* tubiao29.png */,
+				C63CD7E81943050D00E27FAE /* tubiao100.png */,
+				C63CD7EA1943054400E27FAE /* tubiao50.png */,
+				C63CD7EE1943065500E27FAE /* tubiao144.png */,
+				C63CD7EC194305F600E27FAE /* tubiao72.png */,
+				C63CD7F2194306FE00E27FAE /* tubiao76.png */,
+				C63CD7F0194306B000E27FAE /* tubiao152.png */,
+				C63CD7D91942FD9E00E27FAE /* tubiao.png */,
+				C6CBCC5618F16BFC007DD237 /* myLaunch.png */,
+			);
+			name = tubiao;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C6620991193492B30082E746 /* bian_min_tie_shi */ = {
+			isa = PBXGroup;
+			children = (
+				C68392381935EA6200761EB8 /* bian_min_tie_shi_img */,
+				C68392341935D49D00761EB8 /* 各派出所具体地址.html */,
+				C60C8D1F19484A86007BADD8 /* 初家派出所至莱山分局地图.html */,
+				C60C8D2019484A86007BADD8 /* 盛泉派出所至莱山分局地图.html */,
+				C60C8D2119484A86007BADD8 /* 望海派出所至莱山分局地图.html */,
+				C60C8D2219484A86007BADD8 /* 滨海派出所至莱山分局地图.html */,
+				C60C8D2319484A86007BADD8 /* 莱山派出所至莱山分局地图.html */,
+				C60C8D2419484A86007BADD8 /* 解甲庄派出所至莱山分局地图.html */,
+				C60C8D2519484A86007BADD8 /* 院格庄派出所至莱山分局地图.html */,
+				C63CD7F619456DFC00E27FAE /* 警民通使用说明.html */,
+				C6620992193492DE0082E746 /* 各相关单位便民指南.html */,
+				C662099719349A950082E746 /* 各派出所到达分局路线.html */,
+				C662099819349A950082E746 /* 瀛洲派出所至莱山分局地图.html */,
+				C66209941934995F0082E746 /* map.png */,
+			);
+			name = bian_min_tie_shi;
+			sourceTree = "<group>";
+		};
+		C6766F9618E0522700CE02E6 /* roadRule */ = {
+			isa = PBXGroup;
+			children = (
+				C6766F9918E053FC00CE02E6 /* 防范抢夺五法.png */,
+				C6766F9718E053F800CE02E6 /* 旅馆业申办.png */,
+			);
+			name = roadRule;
+			sourceTree = "<group>";
+		};
+		C68392381935EA6200761EB8 /* bian_min_tie_shi_img */ = {
+			isa = PBXGroup;
+			children = (
+				C63CD7FA19459D9F00E27FAE /* 滨海派出所至莱山分局地图.png */,
+				C63CD7FB19459D9F00E27FAE /* 初家派出所至莱山分局地图.png */,
+				C63CD7FC19459D9F00E27FAE /* 莱山派出所至莱山分局地图.png */,
+				C63CD7FD19459D9F00E27FAE /* 圣泉派出所至莱山分局地图.png */,
+				C63CD7FE19459D9F00E27FAE /* 望海派出所至莱山分局地图.png */,
+				C63CD7FF19459D9F00E27FAE /* 解甲庄派出所至莱山分局地图.png */,
+				C63CD80019459D9F00E27FAE /* 瀛洲派出所至莱山分局地图.png */,
+				C63CD80119459D9F00E27FAE /* 院格庄派出所至莱山分局地图.png */,
+				C68392391935EA7B00761EB8 /* 各派出所具体地址.png */,
+				C63CD7F819456E3300E27FAE /* 警民通使用说明.png */,
+				C683923A1935EA7B00761EB8 /* 各派出所到达分局路线.png */,
+				C683923C1935EA7B00761EB8 /* 路线图.png */,
+				C68392411935EB0500761EB8 /* 各相关单位便民指南.png */,
+			);
+			name = bian_min_tie_shi_img;
+			sourceTree = "<group>";
+		};
+		C6A315C418ED05390095D13A /* res */ = {
+			isa = PBXGroup;
+			children = (
+				C63EB16F18EAF3020084D8BD /* head.png */,
+				C63EB17118EAF9120084D8BD /* tail.png */,
+				C68392361935D72400761EB8 /* cssreset.css */,
+				C6A315C618ED08980095D13A /* jquery.min.js */,
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
+		C6A315C518ED07BF0095D13A /* hu_zheng_fu_wu_img */ = {
+			isa = PBXGroup;
+			children = (
+				C6A315DA18ED15900095D13A /* 父母投靠.png */,
+				C6CBCC4818F14CC8007DD237 /* 父母投靠子女人员(烟台六区以外).png */,
+				C6CBCC4A18F14CCC007DD237 /* 父母投靠子女人员(六区之间迁入).png */,
+				C6434D4A18EFB2AE00D9BA33 /* 大中专毕业生落户须知.png */,
+				C6434D5218EFB42200D9BA33 /* 户口迁出须知.png */,
+				C6434D5018EFB39800D9BA33 /* 分户须知.png */,
+				C6434D4C18EFB30A00D9BA33 /* 退伍,转业落户须知.png */,
+				C6434D4E18EFB34600D9BA33 /* 死亡注销户口须知.png */,
+				C6A315E218ED17FB0095D13A /* 出租房屋登记办理.png */,
+				C6A315DC18ED167E0095D13A /* 流动人口服务便民指南.png */,
+				C6434D4818EFB23D00D9BA33 /* 新生婴儿落户须知.png */,
+				C6766F9218E04EC700CE02E6 /* 身份证办理.png */,
+				C6A315E018ED179F0095D13A /* 夫妻投靠人员(莱山区内迁入).png */,
+				C6CBCC4418F14952007DD237 /* 夫妻投靠.png */,
+				C6CBCC4618F14957007DD237 /* 夫妻投靠人员(六区之间迁入).png */,
+				C6A315E418ED18A80095D13A /* 子女投靠父母人员(莱山区内迁入).png */,
+				C6CBCC4E18F14CD8007DD237 /* 子女投靠.png */,
+				C6CBCC4C18F14CD2007DD237 /* 子女投靠父母人员(六区之间迁入).png */,
+				C6A315DE18ED17320095D13A /* 户口迁出,新生儿落户,大中专毕业生落户等.png */,
+			);
+			name = hu_zheng_fu_wu_img;
+			sourceTree = "<group>";
+		};
+		C6AB4E1C190CFEC4000C54DE /* chu_jing_zhi_nan */ = {
+			isa = PBXGroup;
+			children = (
+				C6AB4E1E190D0AEC000C54DE /* 申请因私普通电子护照.html */,
+				C6AB4E1F190D0AEC000C54DE /* 申请因私赴台湾.html */,
+				C6AB4E20190D0AEC000C54DE /* 申请应邀赴台湾.html */,
+				C6AB4E21190D0AEC000C54DE /* 申请赴台湾旅游.html */,
+				C6AB4E22190D0AEC000C54DE /* 申请赴港澳商务洽谈.html */,
+				C6AB4E23190D0AEC000C54DE /* 因私事申请赴港澳地区.html */,
+				C6AB4E24190D0AEC000C54DE /* 申请赴港澳就学,就业,培训.html */,
+				C6AB4E25190D0AEC000C54DE /* 申请赴港澳地区探亲.html */,
+				C6AB4E26190D0AEC000C54DE /* 申请赴港澳地区旅游.html */,
+				C60436C81941F331007AC6AD /* 外国人住宿登记表.html */,
+				C60436C91941F331007AC6AD /* 外国人住宿登记表.png */,
+				C60436CA1941F331007AC6AD /* 外国人补发证件证明表.html */,
+				C60436CB1941F331007AC6AD /* 外国人补发证件证明表.png */,
+				C60436CC1941F331007AC6AD /* 境外人员护照报失登记表.html */,
+				C60436CD1941F331007AC6AD /* 境外人员护照报失登记表.png */,
+				C60436CE1941F331007AC6AD /* 外国人购租房责任保证书.html */,
+				C60436CF1941F331007AC6AD /* 外国人购租房责任保证书.png */,
+				C60436D01941F331007AC6AD /* 涉外办事流程图.html */,
+				C60436D11941F331007AC6AD /* 涉外办事流程图.png */,
+				C6AB4E1D190CFEDA000C54DE /* chu_jing_zhi_nan_img */,
+			);
+			name = chu_jing_zhi_nan;
+			sourceTree = "<group>";
+		};
+		C6AB4E1D190CFEDA000C54DE /* chu_jing_zhi_nan_img */ = {
+			isa = PBXGroup;
+			children = (
+				C6AB4E48190D2981000C54DE /* 申请因私普通电子护照.png */,
+				C6AB4E4A190D2A05000C54DE /* 申请因私赴台湾.png */,
+				C6AB4E4C190D2A70000C54DE /* 申请应邀赴台湾.png */,
+				C6AB4E4E190D2AA7000C54DE /* 申请赴台湾旅游.png */,
+				C6AB4E52190D2B46000C54DE /* 因私事申请赴港澳地区.png */,
+				C6AB4E54190D2BBE000C54DE /* 申请赴港澳就学,就业,培训.png */,
+				C6AB4E50190D2B0A000C54DE /* 申请赴港澳商务洽谈.png */,
+				C6AB4E56190D2C90000C54DE /* 申请赴港澳地区探亲.png */,
+				C6AB4E58190D2CF9000C54DE /* 申请赴港澳地区旅游.png */,
+			);
+			name = chu_jing_zhi_nan_img;
+			sourceTree = "<group>";
+		};
+		C6AB4E30190D0B6D000C54DE /* fang_fan_xiao_chang_shi */ = {
+			isa = PBXGroup;
+			children = (
+				C6AB4E32190D0B96000C54DE /* 如何防范入室盗窃-防盗篇.html */,
+				C6AB4E33190D0B96000C54DE /* 开学防骗-防骗篇.html */,
+				C6AB4E34190D0B96000C54DE /* 网络防范小常识.html */,
+				C6AB4E35190D0B96000C54DE /* 防抢小常识-防抢篇.html */,
+				C6AB4E36190D0B96000C54DE /* 防火常识-防火篇.html */,
+				C6AB4E31190D0B7F000C54DE /* fang_fan_xiao_chang_shi_img */,
+			);
+			name = fang_fan_xiao_chang_shi;
+			sourceTree = "<group>";
+		};
+		C6AB4E31190D0B7F000C54DE /* fang_fan_xiao_chang_shi_img */ = {
+			isa = PBXGroup;
+			children = (
+				C6AB4E40190D272F000C54DE /* 开学防骗-防骗篇.png */,
+				C6AB4E42190D27E4000C54DE /* 网络防范小常识.png */,
+				C6AB4E44190D286C000C54DE /* 防抢小常识-防抢篇.png */,
+				C6AB4E46190D28C2000C54DE /* 防火常识-防火篇.png */,
+				C6AB4E3E190D26EE000C54DE /* 如何防范入室盗窃-防盗篇.png */,
+			);
+			name = fang_fan_xiao_chang_shi_img;
+			sourceTree = "<group>";
+		};
+		C6B9D32618DD8A86008F6FDC = {
+			isa = PBXGroup;
+			children = (
+				C6B9D33818DD8A86008F6FDC /* PoliceMessageBoard */,
+				C6B9D35718DD8A86008F6FDC /* PoliceMessageBoardTests */,
+				C6B9D33118DD8A86008F6FDC /* Frameworks */,
+				C6B9D33018DD8A86008F6FDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6B9D33018DD8A86008F6FDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6B9D32F18DD8A86008F6FDC /* 莱山公安.app */,
+				C6B9D35018DD8A86008F6FDC /* LaiShanPoliceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6B9D33118DD8A86008F6FDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6B9D33218DD8A86008F6FDC /* Foundation.framework */,
+				C6B9D33418DD8A86008F6FDC /* CoreGraphics.framework */,
+				C6B9D33618DD8A86008F6FDC /* UIKit.framework */,
+				C6B9D35118DD8A86008F6FDC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6B9D33818DD8A86008F6FDC /* PoliceMessageBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C61A845218DEFD5300E074E8 /* Html */,
+				C61A845118DEE71B00E074E8 /* ContentViewController */,
+				C61A844618DE756500E074E8 /* ChapterTableViewController */,
+				C6B9D37218DD98DA008F6FDC /* ApplicationDelegate */,
+				C6B9D37118DD98BD008F6FDC /* MainViewController */,
+				C6B9D37018DD9864008F6FDC /* Resource */,
+				C6B9D36F18DD9738008F6FDC /* Storyboard */,
+				C6CBCC5818F1722C007DD237 /* Images.xcassets */,
+				C63CD7D61942EFCB00E27FAE /* tubiao */,
+				C6B9D33918DD8A86008F6FDC /* Supporting Files */,
+			);
+			path = PoliceMessageBoard;
+			sourceTree = "<group>";
+		};
+		C6B9D33918DD8A86008F6FDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6B9D33A18DD8A86008F6FDC /* LaiShanPolice-Info.plist */,
+				C6B9D33B18DD8A86008F6FDC /* InfoPlist.strings */,
+				C6B9D33E18DD8A86008F6FDC /* main.m */,
+				C6B9D34018DD8A86008F6FDC /* LaiShanPolice-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6B9D35718DD8A86008F6FDC /* PoliceMessageBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6B9D35D18DD8A86008F6FDC /* PoliceMessageBoardTests.m */,
+				C6B9D35818DD8A86008F6FDC /* Supporting Files */,
+			);
+			path = PoliceMessageBoardTests;
+			sourceTree = "<group>";
+		};
+		C6B9D35818DD8A86008F6FDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6B9D35918DD8A86008F6FDC /* LaiShanPoliceTests-Info.plist */,
+				C6B9D35A18DD8A86008F6FDC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6B9D36F18DD9738008F6FDC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C6B9D36D18DD95DF008F6FDC /* Storyboard_iPhone5_IOS7.storyboard */,
+				C6B9D36918DD95B8008F6FDC /* Storyboard_iPhone4_IOS7.storyboard */,
+				C6B9D36B18DD95CD008F6FDC /* Storyboard_iPhone5_IOS6.storyboard */,
+				C6B9D36718DD95A2008F6FDC /* Storyboard_iPhone4_IOS6.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		C6B9D37018DD9864008F6FDC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C61A844518DE752100E074E8 /* ChapterTableViewResource */,
+				C6B9D37F18DD9A1C008F6FDC /* MainView */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		C6B9D37118DD98BD008F6FDC /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C6B9D34718DD8A86008F6FDC /* PMBViewController.h */,
+				C6B9D34818DD8A86008F6FDC /* PMBViewController.m */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+		C6B9D37218DD98DA008F6FDC /* ApplicationDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C6B9D34118DD8A86008F6FDC /* PMBAppDelegate.h */,
+				C6B9D34218DD8A86008F6FDC /* PMBAppDelegate.m */,
+			);
+			name = ApplicationDelegate;
+			sourceTree = "<group>";
+		};
+		C6B9D37F18DD9A1C008F6FDC /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				C6B9D38018DD9A38008F6FDC /* bar.png */,
+				C6B9D37318DD9927008F6FDC /* residence_booklet.png */,
+				C6B9D37918DD99C3008F6FDC /* compass.png */,
+				C6A315BE18ECF7FD0095D13A /* house.png */,
+				C6A315C218ECF9350095D13A /* traffic_light.png */,
+				C6A315C018ECF82B0095D13A /* congress.png */,
+				C6B9D38218DD9D0D008F6FDC /* police.png */,
+				C6A315B818ECEFD50095D13A /* manager.png */,
+				C6B9D38418DD9D13008F6FDC /* police0.jpeg */,
+				C6B9D38818DD9DC6008F6FDC /* H.png */,
+				C6B9D38618DD9D83008F6FDC /* jinghui.png */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6B9D32E18DD8A86008F6FDC /* LaiShanPolice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B9D36118DD8A86008F6FDC /* Build configuration list for PBXNativeTarget "LaiShanPolice" */;
+			buildPhases = (
+				C6B9D32B18DD8A86008F6FDC /* Sources */,
+				C6B9D32C18DD8A86008F6FDC /* Frameworks */,
+				C6B9D32D18DD8A86008F6FDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaiShanPolice;
+			productName = PoliceMessageBoard;
+			productReference = C6B9D32F18DD8A86008F6FDC /* 莱山公安.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6B9D34F18DD8A86008F6FDC /* LaiShanPoliceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B9D36418DD8A86008F6FDC /* Build configuration list for PBXNativeTarget "LaiShanPoliceTests" */;
+			buildPhases = (
+				C6B9D34C18DD8A86008F6FDC /* Sources */,
+				C6B9D34D18DD8A86008F6FDC /* Frameworks */,
+				C6B9D34E18DD8A86008F6FDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6B9D35618DD8A86008F6FDC /* PBXTargetDependency */,
+			);
+			name = LaiShanPoliceTests;
+			productName = PoliceMessageBoardTests;
+			productReference = C6B9D35018DD8A86008F6FDC /* LaiShanPoliceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6B9D32718DD8A86008F6FDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PMB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zhaishuai;
+				TargetAttributes = {
+					C6B9D32E18DD8A86008F6FDC = {
+						DevelopmentTeam = GUF7MR836L;
+					};
+					C6B9D34F18DD8A86008F6FDC = {
+						TestTargetID = C6B9D32E18DD8A86008F6FDC;
+					};
+				};
+			};
+			buildConfigurationList = C6B9D32A18DD8A86008F6FDC /* Build configuration list for PBXProject "LaiShanPolice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6B9D32618DD8A86008F6FDC;
+			productRefGroup = C6B9D33018DD8A86008F6FDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6B9D32E18DD8A86008F6FDC /* LaiShanPolice */,
+				C6B9D34F18DD8A86008F6FDC /* LaiShanPoliceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6B9D32D18DD8A86008F6FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6CBCC5318F16BF2007DD237 /* myLaunch@2x.png in Resources */,
+				C683923D1935EA7B00761EB8 /* 各派出所具体地址.png in Resources */,
+				C6A315E318ED17FB0095D13A /* 出租房屋登记办理.png in Resources */,
+				C6B9D38518DD9D13008F6FDC /* police0.jpeg in Resources */,
+				C60436B51941BD62007AC6AD /* 办理恢复驾驶资格业务.html in Resources */,
+				C6A315DB18ED15900095D13A /* 父母投靠.png in Resources */,
+				C6620993193492DE0082E746 /* 各相关单位便民指南.html in Resources */,
+				C6AB4E37190D0B96000C54DE /* 如何防范入室盗窃-防盗篇.html in Resources */,
+				C60C8D2C19484A86007BADD8 /* 院格庄派出所至莱山分局地图.html in Resources */,
+				C6A315E118ED179F0095D13A /* 夫妻投靠人员(莱山区内迁入).png in Resources */,
+				C63CD7C41942AD5500E27FAE /* 驾驶证.png in Resources */,
+				C6A315BF18ECF7FD0095D13A /* house.png in Resources */,
+				C60436C61941EA4F007AC6AD /* 盗窃罪案例解析.html in Resources */,
+				C6AB4E45190D286C000C54DE /* 防抢小常识-防抢篇.png in Resources */,
+				C6AB4E4B190D2A05000C54DE /* 申请因私赴台湾.png in Resources */,
+				C60436AD1941B4E1007AC6AD /* 机动车补领业务.html in Resources */,
+				C60436D31941F331007AC6AD /* 外国人住宿登记表.png in Resources */,
+				C6B9D36818DD95A2008F6FDC /* Storyboard_iPhone4_IOS6.storyboard in Resources */,
+				C6CBCC4318F1415B007DD237 /* 子女投靠父母人员(莱山区内迁入).html in Resources */,
+				C60436C31941EA4F007AC6AD /* 扰乱单位秩序,选举秩序.html in Resources */,
+				C60436AA1941B4E1007AC6AD /* 办理机动车转移登记业务.html in Resources */,
+				C60C8D2B19484A86007BADD8 /* 解甲庄派出所至莱山分局地图.html in Resources */,
+				C6434D5318EFB42200D9BA33 /* 户口迁出须知.png in Resources */,
+				C63CD7F719456DFC00E27FAE /* 警民通使用说明.html in Resources */,
+				C63EB17218EAF9120084D8BD /* tail.png in Resources */,
+				C63CD7F51943097300E27FAE /* myLaunchR4.png in Resources */,
+				C6CBCC4118F14154007DD237 /* 子女投靠父母人员(六区之间迁入).html in Resources */,
+				C6B9D38318DD9D0D008F6FDC /* police.png in Resources */,
+				C63CD7F3194306FE00E27FAE /* tubiao76.png in Resources */,
+				C60C8D2A19484A86007BADD8 /* 莱山派出所至莱山分局地图.html in Resources */,
+				C6AB4E43190D27E4000C54DE /* 网络防范小常识.png in Resources */,
+				C6AB4E28190D0AEC000C54DE /* 申请因私赴台湾.html in Resources */,
+				C60C8D2919484A86007BADD8 /* 滨海派出所至莱山分局地图.html in Resources */,
+				C662099B19349A950082E746 /* 瀛洲派出所至莱山分局地图.html in Resources */,
+				C63CD80819459D9F00E27FAE /* 瀛洲派出所至莱山分局地图.png in Resources */,
+				C63CD80219459D9F00E27FAE /* 滨海派出所至莱山分局地图.png in Resources */,
+				C60436BA1941BD62007AC6AD /* 驾驶证办理业务.html in Resources */,
+				C6AB4E39190D0B96000C54DE /* 网络防范小常识.html in Resources */,
+				C63CD7ED194305F600E27FAE /* tubiao72.png in Resources */,
+				C6AB4E41190D272F000C54DE /* 开学防骗-防骗篇.png in Resources */,
+				C6CBCC4918F14CC8007DD237 /* 父母投靠子女人员(烟台六区以外).png in Resources */,
+				C6AB4E55190D2BBE000C54DE /* 申请赴港澳就学,就业,培训.png in Resources */,
+				C60436C51941EA4F007AC6AD /* 殴打他人案例解析.html in Resources */,
+				C60C8D2819484A86007BADD8 /* 望海派出所至莱山分局地图.html in Resources */,
+				C60436D61941F331007AC6AD /* 境外人员护照报失登记表.html in Resources */,
+				C60436D71941F331007AC6AD /* 境外人员护照报失登记表.png in Resources */,
+				C68392351935D49D00761EB8 /* 各派出所具体地址.html in Resources */,
+				C6AB4E2F190D0AEC000C54DE /* 申请赴港澳地区旅游.html in Resources */,
+				C6A315E518ED18A80095D13A /* 子女投靠父母人员(莱山区内迁入).png in Resources */,
+				C6A315D818ED103C0095D13A /* 父母投靠子女入户.html in Resources */,
+				C60436D91941F331007AC6AD /* 外国人购租房责任保证书.png in Resources */,
+				C6434D4518EFABE900D9BA33 /* 退伍,转业落户须知.html in Resources */,
+				C6A315D418ED103C0095D13A /* 出租房屋登记办理.html in Resources */,
+				C6A315C118ECF82B0095D13A /* congress.png in Resources */,
+				C6AB4E2E190D0AEC000C54DE /* 申请赴港澳地区探亲.html in Resources */,
+				C63CD80719459D9F00E27FAE /* 解甲庄派出所至莱山分局地图.png in Resources */,
+				C6B9D33D18DD8A86008F6FDC /* InfoPlist.strings in Resources */,
+				C6A315DF18ED17320095D13A /* 户口迁出,新生儿落户,大中专毕业生落户等.png in Resources */,
+				C60436D81941F331007AC6AD /* 外国人购租房责任保证书.html in Resources */,
+				C63CD80919459D9F00E27FAE /* 院格庄派出所至莱山分局地图.png in Resources */,
+				C6A315B918ECEFD50095D13A /* manager.png in Resources */,
+				C60436D51941F331007AC6AD /* 外国人补发证件证明表.png in Resources */,
+				C6434D4118EFABD500D9BA33 /* 大中专毕业生落户须知.html in Resources */,
+				C6CBCC4718F14957007DD237 /* 夫妻投靠人员(六区之间迁入).png in Resources */,
+				C63CD80419459D9F00E27FAE /* 莱山派出所至莱山分局地图.png in Resources */,
+				C6B9D37A18DD99C3008F6FDC /* compass.png in Resources */,
+				C60436B91941BD62007AC6AD /* 办理驾驶人审验业务.html in Resources */,
+				C63CD7D11942B17900E27FAE /* 赌博案例解析.png in Resources */,
+				C63CD80519459D9F00E27FAE /* 圣泉派出所至莱山分局地图.png in Resources */,
+				C6A315C318ECF9350095D13A /* traffic_light.png in Resources */,
+				C6B9D36A18DD95B8008F6FDC /* Storyboard_iPhone4_IOS7.storyboard in Resources */,
+				C60436C71941EA4F007AC6AD /* 赌博案例解析.html in Resources */,
+				C6CBCC4518F14952007DD237 /* 夫妻投靠.png in Resources */,
+				C60C8D2619484A86007BADD8 /* 初家派出所至莱山分局地图.html in Resources */,
+				C6CBCC3918F13CEF007DD237 /* 父母投靠子女人员(六区之间迁入).html in Resources */,
+				C6B9D38918DD9DC6008F6FDC /* H.png in Resources */,
+				C6AB4E59190D2CF9000C54DE /* 申请赴港澳地区旅游.png in Resources */,
+				C60436C41941EA4F007AC6AD /* 故意伤害案例解析.html in Resources */,
+				C63CD7D51942B2A300E27FAE /* 示范表格.png in Resources */,
+				C63CD7E51943038C00E27FAE /* tubiao58.png in Resources */,
+				C6CBCC4B18F14CCC007DD237 /* 父母投靠子女人员(六区之间迁入).png in Resources */,
+				C61A844418DE751B00E074E8 /* newbar.png in Resources */,
+				C63CD7E7194303F000E27FAE /* tubiao29.png in Resources */,
+				C6A315D918ED103C0095D13A /* 身份证办理.html in Resources */,
+				C6AB4E27190D0AEC000C54DE /* 申请因私普通电子护照.html in Resources */,
+				C6CBCC5518F16BF8007DD237 /* p2.png in Resources */,
+				C6CBCC3718F139E5007DD237 /* 夫妻投靠人员(莱山区内迁入).html in Resources */,
+				C6AB4E47190D28C2000C54DE /* 防火常识-防火篇.png in Resources */,
+				C6434D5118EFB39800D9BA33 /* 分户须知.png in Resources */,
+				C6434D4D18EFB30A00D9BA33 /* 退伍,转业落户须知.png in Resources */,
+				C6AB4E3A190D0B96000C54DE /* 防抢小常识-防抢篇.html in Resources */,
+				C68392371935D72400761EB8 /* cssreset.css in Resources */,
+				C6CBCC3D18F13DB2007DD237 /* 父母投靠子女人员(莱山区内迁入).html in Resources */,
+				C6766F9818E053F800CE02E6 /* 旅馆业申办.png in Resources */,
+				C63CD7E11943017100E27FAE /* tubiao40.png in Resources */,
+				C60436DA1941F331007AC6AD /* 涉外办事流程图.html in Resources */,
+				C6AB4E2A190D0AEC000C54DE /* 申请赴台湾旅游.html in Resources */,
+				C63CD80319459D9F00E27FAE /* 初家派出所至莱山分局地图.png in Resources */,
+				C63CD80619459D9F00E27FAE /* 望海派出所至莱山分局地图.png in Resources */,
+				C63CD7F919456E3300E27FAE /* 警民通使用说明.png in Resources */,
+				C60436D21941F331007AC6AD /* 外国人住宿登记表.html in Resources */,
+				C6AB4E2D190D0AEC000C54DE /* 申请赴港澳就学,就业,培训.html in Resources */,
+				C60436B71941BD62007AC6AD /* 办理满分学习业务.html in Resources */,
+				C6AB4E29190D0AEC000C54DE /* 申请应邀赴台湾.html in Resources */,
+				C63CD7CB1942AF3D00E27FAE /* 故意伤害案例解析.png in Resources */,
+				C66209951934995F0082E746 /* map.png in Resources */,
+				C662099A19349A950082E746 /* 各派出所到达分局路线.html in Resources */,
+				C6AB4E49190D2981000C54DE /* 申请因私普通电子护照.png in Resources */,
+				C6434D4B18EFB2AE00D9BA33 /* 大中专毕业生落户须知.png in Resources */,
+				C6B9D36C18DD95CD008F6FDC /* Storyboard_iPhone5_IOS6.storyboard in Resources */,
+				C6434D3B18EFABB900D9BA33 /* 户口迁出须知.html in Resources */,
+				C60436AB1941B4E1007AC6AD /* 变更业务.html in Resources */,
+				C6AB4E38190D0B96000C54DE /* 开学防骗-防骗篇.html in Resources */,
+				C6B9D37418DD9927008F6FDC /* residence_booklet.png in Resources */,
+				C63CD7CF1942B14800E27FAE /* 盗窃罪案例解析.png in Resources */,
+				C63CD7EB1943054400E27FAE /* tubiao50.png in Resources */,
+				C6B9D38118DD9A38008F6FDC /* bar.png in Resources */,
+				C6D662DF18F26BD90032ED52 /* 8-1.png in Resources */,
+				C6766F9A18E053FC00CE02E6 /* 防范抢夺五法.png in Resources */,
+				C6AB4E2B190D0AEC000C54DE /* 申请赴港澳商务洽谈.html in Resources */,
+				C6CBCC5718F16BFC007DD237 /* myLaunch.png in Resources */,
+				C6A315C718ED08980095D13A /* jquery.min.js in Resources */,
+				C63CD7DA1942FD9E00E27FAE /* tubiao.png in Resources */,
+				C6CBCC5918F1722C007DD237 /* Images.xcassets in Resources */,
+				C6B9D38718DD9D83008F6FDC /* jinghui.png in Resources */,
+				C60436DB1941F331007AC6AD /* 涉外办事流程图.png in Resources */,
+				C6AB4E4D190D2A70000C54DE /* 申请应邀赴台湾.png in Resources */,
+				C63CD7E91943050D00E27FAE /* tubiao100.png in Resources */,
+				C60C8D2719484A86007BADD8 /* 盛泉派出所至莱山分局地图.html in Resources */,
+				C60436C21941EA4F007AC6AD /* 寻衅滋事案例解析.html in Resources */,
+				C63CD7C91942AED200E27FAE /* 殴打他人案例解析.png in Resources */,
+				C63CD7D31942B21300E27FAE /* 扰乱单位秩序,选举秩序.png in Resources */,
+				C6CBCC5B18F17419007DD237 /* 8.png in Resources */,
+				C63CD7F1194306B000E27FAE /* tubiao152.png in Resources */,
+				C6AB4E53190D2B46000C54DE /* 因私事申请赴港澳地区.png in Resources */,
+				C6CBCC4F18F14CD8007DD237 /* 子女投靠.png in Resources */,
+				C60436B81941BD62007AC6AD /* 办理补证业务.html in Resources */,
+				C63CD7DE1943008D00E27FAE /* tubiao57.png in Resources */,
+				C6CBCC3318F138B0007DD237 /* 夫妻投靠人员(烟台六区以外).html in Resources */,
+				C6A315DD18ED167E0095D13A /* 流动人口服务便民指南.png in Resources */,
+				C6AB4E3B190D0B96000C54DE /* 防火常识-防火篇.html in Resources */,
+				C6AB4E4F190D2AA7000C54DE /* 申请赴台湾旅游.png in Resources */,
+				C6AB4E3F190D26EE000C54DE /* 如何防范入室盗窃-防盗篇.png in Resources */,
+				C6CBCC4D18F14CD2007DD237 /* 子女投靠父母人员(六区之间迁入).png in Resources */,
+				C63CD7DC1942FFA000E27FAE /* tubiao120.png in Resources */,
+				C63CD7EF1943065500E27FAE /* tubiao144.png in Resources */,
+				C63EB17018EAF3020084D8BD /* head.png in Resources */,
+				C6766F9318E04EC700CE02E6 /* 身份证办理.png in Resources */,
+				C6434D3F18EFABC900D9BA33 /* 死亡注销户口须知.html in Resources */,
+				C6AB4E51190D2B0A000C54DE /* 申请赴港澳商务洽谈.png in Resources */,
+				C63CD7CD1942AF9300E27FAE /* 寻衅滋事案例解析.png in Resources */,
+				C6434D4318EFABDA00D9BA33 /* 分户须知.html in Resources */,
+				C6434D4718EFB0DC00D9BA33 /*  子女投靠父母入户.html in Resources */,
+				C60436AC1941B4E1007AC6AD /* 机动车抵押、解押业务.html in Resources */,
+				C6A315D718ED103C0095D13A /* 流动人口服务便民指南.html in Resources */,
+				C63CD7E31943026500E27FAE /* tubiao80.png in Resources */,
+				C60436B61941BD62007AC6AD /* 办理期满换证业务.html in Resources */,
+				C6434D3D18EFABC200D9BA33 /* 新生婴儿落户须知.html in Resources */,
+				C6434D4F18EFB34600D9BA33 /* 死亡注销户口须知.png in Resources */,
+				C63CD7C61942ADC500E27FAE /* 机动车.png in Resources */,
+				C68392421935EB0500761EB8 /* 各相关单位便民指南.png in Resources */,
+				C6CBCC3F18F1414D007DD237 /* 子女投靠父母人员(六区以外迁入).html in Resources */,
+				C6AB4E57190D2C90000C54DE /* 申请赴港澳地区探亲.png in Resources */,
+				C60436D41941F331007AC6AD /* 外国人补发证件证明表.html in Resources */,
+				C6434D4918EFB23D00D9BA33 /* 新生婴儿落户须知.png in Resources */,
+				C60436A91941B4E1007AC6AD /* 办理新车注册业务.html in Resources */,
+				C683923E1935EA7B00761EB8 /* 各派出所到达分局路线.png in Resources */,
+				C68392401935EA7B00761EB8 /* 路线图.png in Resources */,
+				C6CBCC3518F13998007DD237 /* 夫妻投靠人员(六区之间迁入).html in Resources */,
+				C6CBCC3B18F13CF9007DD237 /* 父母投靠子女人员(烟台六区以外).html in Resources */,
+				C6AB4E2C190D0AEC000C54DE /* 因私事申请赴港澳地区.html in Resources */,
+				C6B9D36E18DD95DF008F6FDC /* Storyboard_iPhone5_IOS7.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B9D34E18DD8A86008F6FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B9D35C18DD8A86008F6FDC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6B9D32B18DD8A86008F6FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61A845018DEE70300E074E8 /* PMBContentViewController.m in Sources */,
+				C6B9D34918DD8A86008F6FDC /* PMBViewController.m in Sources */,
+				C6B9D34318DD8A86008F6FDC /* PMBAppDelegate.m in Sources */,
+				C6B9D33F18DD8A86008F6FDC /* main.m in Sources */,
+				C61A844918DE75A500E074E8 /* PMBChapterTableViewController.m in Sources */,
+				C61A844D18DEBD0D00E074E8 /* PMBSecondChapterTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B9D34C18DD8A86008F6FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B9D35E18DD8A86008F6FDC /* PoliceMessageBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6B9D35618DD8A86008F6FDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6B9D32E18DD8A86008F6FDC /* LaiShanPolice */;
+			targetProxy = C6B9D35518DD8A86008F6FDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6B9D33B18DD8A86008F6FDC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6B9D33C18DD8A86008F6FDC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C6B9D35A18DD8A86008F6FDC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6B9D35B18DD8A86008F6FDC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6B9D35F18DD8A86008F6FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: zhai hong fang (2R5HHA33D7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: zhai hong fang (2R5HHA33D7)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C6B9D36018DD8A86008F6FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: zhai hong fang (2R5HHA33D7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: zhai hong fang (2R5HHA33D7)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6B9D36218DD8A86008F6FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: zhai hong fang (2R5HHA33D7)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PoliceMessageBoard/LaiShanPolice-Prefix.pch";
+				INFOPLIST_FILE = "PoliceMessageBoard/LaiShanPolice-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "莱山公安";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C6B9D36318DD8A86008F6FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: zhai hong fang (2R5HHA33D7)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PoliceMessageBoard/LaiShanPolice-Prefix.pch";
+				INFOPLIST_FILE = "PoliceMessageBoard/LaiShanPolice-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "莱山公安";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C6B9D36518DD8A86008F6FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PoliceMessageBoard.app/PoliceMessageBoard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PoliceMessageBoard/PoliceMessageBoard-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PoliceMessageBoardTests/LaiShanPoliceTests-Info.plist";
+				PRODUCT_NAME = LaiShanPoliceTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C6B9D36618DD8A86008F6FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PoliceMessageBoard.app/PoliceMessageBoard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PoliceMessageBoard/PoliceMessageBoard-Prefix.pch";
+				INFOPLIST_FILE = "PoliceMessageBoardTests/LaiShanPoliceTests-Info.plist";
+				PRODUCT_NAME = LaiShanPoliceTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6B9D32A18DD8A86008F6FDC /* Build configuration list for PBXProject "LaiShanPolice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B9D35F18DD8A86008F6FDC /* Debug */,
+				C6B9D36018DD8A86008F6FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B9D36118DD8A86008F6FDC /* Build configuration list for PBXNativeTarget "LaiShanPolice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B9D36218DD8A86008F6FDC /* Debug */,
+				C6B9D36318DD8A86008F6FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B9D36418DD8A86008F6FDC /* Build configuration list for PBXNativeTarget "LaiShanPoliceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B9D36518DD8A86008F6FDC /* Debug */,
+				C6B9D36618DD8A86008F6FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6B9D32718DD8A86008F6FDC /* Project object */;
+}
